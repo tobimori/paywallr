@@ -2,11 +2,13 @@
 
     "manifest_version": 2,
     "name": "Unpaywall",
-    "version": "0.1",
+    "version": "1.0",
   
-    "description": "Read articles locked behind paywalls of various german newspapers. All code is provided for educational purposes only.",
+    "description": "Read articles locked behind paywalls of over 40 german newspapers, e.g. Westdeutsche Allgemeine Zeitung, Kölner Stadt-Anzeiger, Hamburger Abendblatt & Leipziger Volkszeitung. ",
   
-    "icons": {},
+    "icons": {
+
+    },
   
     "content_scripts": [
       {
