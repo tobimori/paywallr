@@ -4,7 +4,7 @@
     "name": "Unpaywall",
     "version": "1.0",
   
-    "description": "Read articles locked behind paywalls of over 40 german newspapers, e.g. Westdeutsche Allgemeine Zeitung, Kölner Stadt-Anzeiger, Hamburger Abendblatt & Leipziger Volkszeitung. ",
+    "description": "Read articles locked behind paywalls of over 40 german newspapers. ",
   
     "icons": {
       "32": "icons/icon-32.png",
