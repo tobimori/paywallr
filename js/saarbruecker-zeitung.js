@@ -1,0 +1,1 @@
+document.getElementById("park-webtrekk-paywall-hook").remove();

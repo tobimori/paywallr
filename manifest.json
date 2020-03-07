@@ -1,0 +1,79 @@
+{
+
+    "manifest_version": 2,
+    "name": "Unpaywall",
+    "version": "0.1",
+  
+    "description": "Read articles locked behind paywalls of various german newspapers. All code is provided for educational purposes only.",
+  
+    "icons": {},
+  
+    "content_scripts": [
+      {
+        "matches": [
+            "*://*.waz-online.de/*", 
+            "*://*.cellesche-zeitung.de/*", 
+            "*://*.dnn.de/*", 
+            "*://*.goettinger-tageblatt.de/*", 
+            "*://*.haz.de/*", 
+            "*://*.kn-online.de/*", 
+            "*://*.lvz.de/*", 
+            "*://*.ln-online.de/*", 
+            "*://*.maz-online.de/*", 
+            "*://*.neuepresse.de/*", 
+            "*://*.ostsee-zeitung.de/*", 
+            "*://*.paz-online.de/*", 
+            "*://*.sn-online.de/*"],
+        "js": ["js/madsack.js"],
+        "run_at": "document_end" 
+      }, {
+        "matches": [
+            "*://*.ksta.de/*", 
+            "*://*.rundschau-online.de/*", 
+            "*://*.mz-web.de/*"
+        ],
+        "js": ["js/dumont.js"],
+        "run_at": "document_idle"       
+      }, {
+        "matches": [
+            "*://*.thueringer-allgemeine.de/*", 
+            "*://*.abendblatt.de/*", 
+            "*://*.waz.de/*", 
+            "*://*.nrz.de/*", 
+            "*://*.wr.de/*", 
+            "*://*.wp.de/*", 
+            "*://*.otz.de/*", 
+            "*://*.morgenpost.de/*"
+        ],
+        "js": ["js/funke.js"],
+        "run_at": "document_start"       
+      }, {
+        "matches": [
+            "*://*.saarbruecker-zeitung.de/*"
+        ],
+        "js": ["js/saarbruecker-zeitung.js"],
+        "run_at": "document_idle"       
+      }, {
+        "matches": [
+            "*://*.allgemeine-zeitung.de/*", 
+            "*://*.buerstaedter-zeitung.de/*", 
+            "*://*.echo-online.de/*", 
+            "*://*.mittelhessen.de/*", 
+            "*://*.giessener-anzeiger.de/*", 
+            "*://*.hochheimer-zeitung.de/*", 
+            "*://*.hofheimer-zeitung.de/*", 
+            "*://*.wiesbadener-kurier.de/*", 
+            "*://*.kreis-anzeiger.de/*", 
+            "*://*.lampertheimer-zeitung.de/*", 
+            "*://*.lauterbacher-anzeiger.de/*", 
+            "*://*.main-spitze.de/*", 
+            "*://*.oberhessische-zeitung.de/*", 
+            "*://*.usinger-anzeiger.de/*", 
+            "*://*.wormser-zeitung.de/*"
+        ],
+        "js": ["js/laterpay-vrm.js"],
+        "run_at": "document_start"       
+      }
+    ] 
+
+}
