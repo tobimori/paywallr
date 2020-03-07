@@ -7,7 +7,11 @@
     "description": "Read articles locked behind paywalls of over 40 german newspapers, e.g. Westdeutsche Allgemeine Zeitung, Kölner Stadt-Anzeiger, Hamburger Abendblatt & Leipziger Volkszeitung. ",
   
     "icons": {
-
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "64": "icons/icon-64.png",
+      "96": "icons/icon-96.png",
+      "128": "icons/icon-128.png"
     },
   
     "content_scripts": [
