@@ -1,5 +1,6 @@
 # unpaywall
 Read articles locked behind paywalls of over 40 german local newspapers. 
+
 This extension is provided for educational purposes only. I strongly encourage you to subscribe to your favourite newspaper and support local journalism.
 
 ## Supported sites
