@@ -6,6 +6,7 @@ This extension is provided for educational purposes only. I strongly encourage y
 
 **[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" height="40">](https://addons.mozilla.org/firefox/addon/unpaywall-germany/?src=external-github-bigbutton-downloads)**
 **[<img src="https://dev.opera.com/extensions/branding-guidelines/addons_206x58_en@2x.png" height="39">](https://addons.opera.com/extensions/details/unpaywall/?src=external-github-bigbutton-downloads)**
+**[<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_496x150.png" height="39">](https://chrome.google.com/webstore/detail/unpaywall/afeichgdccjeclmcfiofcacpecigafoi/?src=external-github-bigbutton-downloads)**
 
 ## Supported sites
 
