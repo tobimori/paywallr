@@ -1,3 +1,5 @@
+* [Firefox](https://addons.mozilla.org/firefox/addon/unpaywall-germany/)
+* [Opera](https://addons.opera.com/extensions/details/unpaywall/)
 # unpaywall
 Read articles locked behind paywalls of over 40 german local newspapers. 
 
