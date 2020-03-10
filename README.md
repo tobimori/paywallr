@@ -1,9 +1,12 @@
-* [Firefox](https://addons.mozilla.org/firefox/addon/unpaywall-germany/)
-* [Opera](https://addons.opera.com/extensions/details/unpaywall/)
 # unpaywall
+[![Mozilla Add-on](https://img.shields.io/amo/v/unpaywall-germany)](https://addons.mozilla.org/firefox/addon/unpaywall-germany/?src=external-github-shield-downloads)
+
 Read articles locked behind paywalls of over 40 german local newspapers. 
 
 This extension is provided for educational purposes only. I strongly encourage you to subscribe to your favourite newspaper and support local journalism.
+
+**[![Get it from Mozilla Add-ons](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/firefox/addon/unpaywall-germany/)**
+**[![Get it from Opera Add-ons](https://dev.opera.com/extensions/branding-guidelines/addons_206x58_en@2x.png)](https://addons.opera.com/extensions/details/unpaywall/)**
 
 ## Supported sites
 
