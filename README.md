@@ -5,8 +5,8 @@ Read articles locked behind paywalls of over 40 german local newspapers.
 
 This extension is provided for educational purposes only. I strongly encourage you to subscribe to your favourite newspaper and support local journalism.
 
-**[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" height="60">](https://addons.mozilla.org/firefox/addon/unpaywall-germany/?src=external-github-bitbutton-downloads)**
-**[<img src="https://dev.opera.com/extensions/branding-guidelines/addons_206x58_en@2x.png" height="58">](https://addons.opera.com/extensions/details/unpaywall/?src=external-github-bitbutton-downloads)**
+**[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" height="40">](https://addons.mozilla.org/firefox/addon/unpaywall-germany/?src=external-github-bitbutton-downloads)**
+**[<img src="https://dev.opera.com/extensions/branding-guidelines/addons_206x58_en@2x.png" height="36">](https://addons.opera.com/extensions/details/unpaywall/?src=external-github-bitbutton-downloads)**
 
 ## Supported sites
 
