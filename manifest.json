@@ -16,6 +16,17 @@
       "128": "icons/icon-128.png"
     },
   
+    "browser_action": {
+      "default_popup": "popout/popout.html",
+      "default_icon": {
+        "32": "icons/icon-32.png",
+        "48": "icons/icon-48.png",
+        "64": "icons/icon-64.png",
+        "96": "icons/icon-96.png",
+        "128": "icons/icon-128.png"
+      }
+    },
+
     "content_scripts": [
       {
         "matches": [
@@ -81,6 +92,12 @@
         ],
         "js": ["components/laterpay-vrm.js"],
         "run_at": "document_start"       
+      }, {
+        "matches": [
+            "*://*.faz.net/*"
+        ],
+        "js": ["components/faz.js"],
+        "run_at": "document_end"       
       }
     ] 
 
