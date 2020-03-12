@@ -32,7 +32,7 @@
             "*://*.ostsee-zeitung.de/*", 
             "*://*.paz-online.de/*", 
             "*://*.sn-online.de/*"],
-        "js": ["js/madsack.js"],
+        "js": ["components/madsack.js"],
         "run_at": "document_end" 
       }, {
         "matches": [
@@ -40,7 +40,7 @@
             "*://*.rundschau-online.de/*", 
             "*://*.mz-web.de/*"
         ],
-        "js": ["js/dumont.js"],
+        "js": ["components/dumont.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [
@@ -53,13 +53,13 @@
             "*://*.otz.de/*", 
             "*://*.morgenpost.de/*"
         ],
-        "js": ["js/funke.js"],
+        "js": ["components/funke.js"],
         "run_at": "document_start"       
       }, {
         "matches": [
             "*://*.saarbruecker-zeitung.de/*"
         ],
-        "js": ["js/saarbruecker-zeitung.js"],
+        "js": ["components/saarbruecker-zeitung.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [
@@ -79,7 +79,7 @@
             "*://*.usinger-anzeiger.de/*", 
             "*://*.wormser-zeitung.de/*"
         ],
-        "js": ["js/laterpay-vrm.js"],
+        "js": ["components/laterpay-vrm.js"],
         "run_at": "document_start"       
       }
     ] 
