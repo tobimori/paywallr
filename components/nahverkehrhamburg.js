@@ -1,0 +1,1 @@
+[...document.getElementsByClassName("cleanslate")].map(n => n.remove());

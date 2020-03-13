@@ -1,6 +1,6 @@
 # unpaywall [![Mozilla Add-on](https://img.shields.io/amo/v/unpaywall-germany?style=flat-square&logo=mozilla-firefox)](https://addons.mozilla.org/firefox/addon/unpaywall-germany/?src=external-github-shield-downloads)
 
-Read articles locked behind paywalls of over 40 german local newspapers. 
+Read articles locked behind paywalls of over 40 german local newspapers.
 
 This extension is provided for educational purposes only. I strongly encourage you to subscribe to your favourite newspaper and support local journalism.
 
@@ -34,20 +34,21 @@ This extension is provided for educational purposes only. I strongly encourage y
 * [Peiner Allgemeine](https://www.paz-online.de/)
 * [Schaumburger Nachrichten](https://www.sn-online.de/)
 * [Allgemeine Zeitung](https://www.allgemeine-zeitung.de/)
-* [Burgstädter Zeitung](https://www.buerstaedter-zeitung.de/) 
-* [Echo Online](https://www.echo-online.de/) 
-* [Mittelhessen.de](https://www.mittelhessen.de/) 
-* [Giessener Anzeiger](https://www.giessener-anzeiger.de/) 
-* [Hochheimer Zeitung](https://www.hochheimer-zeitung.de/) 
-* [Hofheimer Zeitung](https://www.hofheimer-zeitung.de/) 
-* [Wiesbadener Kurier](https://www.wiesbadener-kurier.de/) 
-* [Kreis-Anzeiger](https://www.kreis-anzeiger.de/) 
-* [Lampertheimer Zeitung](https://www.lampertheimer-zeitung.de/) 
-* [Lauterbacher Anzeiger](https://www.lauterbacher-anzeiger.de/) 
-* [Main-Spitze](https://www.main-spitze.de/) 
-* [Oberhessische Zeitung](https://www.oberhessische-zeitung.de/) 
-* [Usinger Anzeiger](https://www.usinger-anzeiger.de/) 
+* [Burgstädter Zeitung](https://www.buerstaedter-zeitung.de/)
+* [Echo Online](https://www.echo-online.de/)
+* [Mittelhessen.de](https://www.mittelhessen.de/)
+* [Giessener Anzeiger](https://www.giessener-anzeiger.de/)
+* [Hochheimer Zeitung](https://www.hochheimer-zeitung.de/)
+* [Hofheimer Zeitung](https://www.hofheimer-zeitung.de/)
+* [Wiesbadener Kurier](https://www.wiesbadener-kurier.de/)
+* [Kreis-Anzeiger](https://www.kreis-anzeiger.de/)
+* [Lampertheimer Zeitung](https://www.lampertheimer-zeitung.de/)
+* [Lauterbacher Anzeiger](https://www.lauterbacher-anzeiger.de/)
+* [Main-Spitze](https://www.main-spitze.de/)
+* [Oberhessische Zeitung](https://www.oberhessische-zeitung.de/)
+* [Usinger Anzeiger](https://www.usinger-anzeiger.de/)
 * [Wormser Zeitung](https://www.wormser-zeitung.de/)
 * [Saarbrücker Zeitung](https://www.saarbruecker-zeitung.de/)
+* [NahverkehrHAMBURG](https://www.nahverkehrhamburg.de/)
 
-Feel free to add support for new sites :)
+Feel free to add support for new sites. :)

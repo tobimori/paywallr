@@ -3,7 +3,7 @@
     "manifest_version": 2,
 
     "name": "Unpaywall",
-    "version": "1.0",
+    "version": "1.1",
     "author": "tobimori",
 
     "description": "Read articles locked behind paywalls of over 40 german newspapers.",
@@ -14,17 +14,6 @@
       "64": "icons/icon-64.png",
       "96": "icons/icon-96.png",
       "128": "icons/icon-128.png"
-    },
-  
-    "browser_action": {
-      "default_popup": "popout/popout.html",
-      "default_icon": {
-        "32": "icons/icon-32.png",
-        "48": "icons/icon-48.png",
-        "64": "icons/icon-64.png",
-        "96": "icons/icon-96.png",
-        "128": "icons/icon-128.png"
-      }
     },
 
     "content_scripts": [
@@ -94,10 +83,10 @@
         "run_at": "document_start"       
       }, {
         "matches": [
-            "*://*.faz.net/*"
+            "*://*.nahverkehrhamburg.de/*"
         ],
-        "js": ["components/faz.js"],
-        "run_at": "document_end"       
+        "js": ["components/nahverkehrhamburg.js"],
+        "run_at": "document_idle"       
       }
     ] 
 
