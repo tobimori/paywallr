@@ -2,7 +2,7 @@
 
 Read articles locked behind paywalls of over 40 german local newspapers.
 
-This extension is provided for educational purposes only. I strongly encourage you to subscribe to your favourite newspaper and support local journalism.
+This extension is provided for **educational purposes only**. I **strongly** encourage you to subscribe to your favourite newspaper and support local journalism.
 
 **[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" height="40">](https://addons.mozilla.org/firefox/addon/unpaywall-germany/?src=external-github-bigbutton-downloads)**
 **[<img src="https://dev.opera.com/extensions/branding-guidelines/addons_206x58_en@2x.png" height="39">](https://addons.opera.com/extensions/details/unpaywall/?src=external-github-bigbutton-downloads)**
@@ -51,4 +51,36 @@ This extension is provided for educational purposes only. I strongly encourage y
 * [Saarbrücker Zeitung](https://www.saarbruecker-zeitung.de/)
 * [NahverkehrHAMBURG](https://www.nahverkehrhamburg.de/)
 
-Feel free to add support for new sites. :)
+## Why (and how) does this work?!
+
+### Madsack (e.g. Leipziger Volkszeitung, Hannoversche Allgemeine Zeitung, Kieler Nachrichten)
+
+Madsack stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co. They also indicate that their article is available for free, presumably to achieve a higher ranking. The Web extension just reads this text and replaces the preview with it.
+
+### FUNKE Mediengruppe (e.g. Hamburger Abendblatt, Berliner Morgenpost, Thüringer Allgemeine, Westfalenpost)
+
+The CMS of the FUNKE Mediengruppe provides the complete article and deletes it afterwards. Unpaywall simply removes any scripts from the site.
+
+### VRM (e.g. Mittelhessen, Echo Online, Allgemeine Zeitung)
+
+The CMS of the Verlagsgruppe Rhein-Main encrypts the article afterwards. They use a solution of the company LaterPay, which encryption can be prevented by removing the configuration keys from LaterPay.
+
+### DuMont (e.g. Kölner Stadtanzeiger & Mitteldeutsche Zeitung)
+
+DuMont stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co.
+
+### Frankfurter Allgemeine Zeitung
+
+The FAZ has a social media section [here](https://www.faz.net/social-media/instagram/), which is linked in their Instagram biography and shall be used to find articles they post about. Articles in this category can be unlocked by adding a ```?premium``` at the end.
+
+This unlock mechanism is currently disabled.
+
+### Saarbrücker Zeitung
+
+The Saarbrücker Zeitung saves the complete article and replaces it afterwards.
+
+This unlock mechanism is buggy, but the script providing the paywall mechanisms are blocked in the famous ad blocker uBlock Origin anyways.
+
+### NahverkehrHAMBURG
+
+NahverkehrHAMBURG uses Steady to finance their site. All articles are available for free at release, but will be blocked with a popup after a few days. Only the view is blocked, so Unpaywall removes the element that advertises the paywall.
