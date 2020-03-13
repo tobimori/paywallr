@@ -63,7 +63,7 @@ The CMS of the FUNKE Mediengruppe provides the complete article and deletes it a
 
 ### VRM (e.g. Mittelhessen, Echo Online, Allgemeine Zeitung)
 
-The CMS of the Verlagsgruppe Rhein-Main encrypts the article afterwards. They use a solution of the company LaterPay, whose encryption can be prevented by removing the configuration keys from LaterPay.
+The CMS of the Verlagsgruppe Rhein-Main encrypts the article afterwards. They use a solution of the company LaterPay, whose encryption can be prevented by removing the configuration key used by LaterPay.
 
 ### DuMont (e.g. Kölner Stadtanzeiger & Mitteldeutsche Zeitung)
 
