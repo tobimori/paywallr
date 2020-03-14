@@ -3,11 +3,13 @@
     "manifest_version": 2,
 
     "name": "Unpaywall",
-    "version": "1.1",
+    "version": "1.2",
     "author": "tobimori",
 
-    "description": "Read articles locked behind paywalls of over 40 german newspapers.",
-
+    "description": "__MSG_manifestDescription__",
+    
+    "default_locale": "en",
+    
     "icons": {
       "32": "icons/icon-32.png",
       "48": "icons/icon-48.png",

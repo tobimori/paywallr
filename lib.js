@@ -8,7 +8,7 @@
 //  github.com/tobimori/unpaywall
 //
 
-// written by Lukas Fruntke
+// orginally written by Lukas Fruntke
 // https://github.com/tobimori/unpaywall-funke/unpaywall-funke.user.js
 const removeElements = (...arrays) => {
     [...arrays].forEach(([...array]) => array.filter(n => !!n)

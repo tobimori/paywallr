@@ -11,6 +11,6 @@
 //  lensing media uses piano/tinypass, content gets removed afterwards
 //
 
-// TODO: Block Piano from loading
+// TODO: Block Tinypass from loading
 
 document.getElementById("BaseText").classList.remove("PianoContent");
