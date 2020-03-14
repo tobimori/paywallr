@@ -4,11 +4,11 @@
 //  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
 //          /_/        /___/                           
 //
-//  ruhrnachrichten component
+//  lensing media component
 //  github.com/tobimori/unpaywall
 //
 //  notes:
-//  ruhrnachrichten uses piano/tinypass, content gets removed afterwards
+//  lensing media uses piano/tinypass, content gets removed afterwards
 //
 
 // TODO: Block Piano from loading
