@@ -51,7 +51,8 @@
             "*://*.wr.de/*", 
             "*://*.wp.de/*", 
             "*://*.otz.de/*", 
-            "*://*.morgenpost.de/*"
+            "*://*.morgenpost.de/*",
+            "*://*.ikz-online.de/*"
         ],
         "js": ["lib.js", "components/funke.js"],
         "run_at": "document_start"       
