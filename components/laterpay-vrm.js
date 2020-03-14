@@ -7,6 +7,9 @@
 //  verlagsgruppe rhein-main component
 //  github.com/tobimori/unpaywall
 //
+//  notes:
+//  vrm uses laterpay
+//
 
 const d = document;
 

@@ -89,10 +89,10 @@
         "run_at": "document_idle"       
       }, {
         "matches": [
-            "*://*.shz.de/*"
+            "*://*.hellwegeranzeiger.de/*"
         ],
-        "js": ["lib.js", "components/shz.js"],
-        "run_at": "document_idle"       
+        "js": ["lib.js", "components/hellwegeranzeiger.js"],
+        "run_at": "document_end"       
       }
     ] 
 
