@@ -1,3 +1,13 @@
+//                                         ____
+//   __ _____  ___  ___ ___ ___    _____ _/ / /
+//  / // / _ \/ _ \/ _ `/ // / |/|/ / _ `/ / / 
+//  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
+//          /_/        /___/                           
+//
+//  verlagsgruppe rhein-main component
+//  github.com/tobimori/unpaywall
+//
+
 const d = document;
 
 const observer = new MutationObserver(function (mutations, me) {

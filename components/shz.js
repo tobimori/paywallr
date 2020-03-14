@@ -4,8 +4,8 @@
 //  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
 //          /_/        /___/                           
 //
-//  saarbruecker zeitung component
+//  shz component
 //  github.com/tobimori/unpaywall
 //
 
-document.getElementById("park-webtrekk-paywall-hook").remove();
+[...document.getElementsByTagName("p")].map(n => n.classList.remove("blurred"));
