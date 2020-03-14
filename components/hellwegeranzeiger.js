@@ -11,4 +11,6 @@
 //  hellweger anzeiger uses piano/tinypass, content gets removed afterwards
 //
 
+// TODO: Block Piano from loading
+
 document.getElementById("BaseText").classList.remove("PianoContent");
