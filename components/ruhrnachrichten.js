@@ -4,11 +4,11 @@
 //  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
 //          /_/        /___/                           
 //
-//  hellweger anzeiger component
+//  ruhrnachrichten component
 //  github.com/tobimori/unpaywall
 //
 //  notes:
-//  hellweger anzeiger uses piano/tinypass, content gets removed afterwards
+//  ruhrnachrichten uses piano/tinypass, content gets removed afterwards
 //
 
 // TODO: Block Piano from loading

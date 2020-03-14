@@ -89,9 +89,13 @@
         "run_at": "document_idle"       
       }, {
         "matches": [
-            "*://*.hellwegeranzeiger.de/*"
+            "*://*.ruhrnachrichten.de/*",
+            "*://*.hellwegeranzeiger.de/*",
+            "*://*.dorstenerzeitung.de/*",
+            "*://*.muensterlandzeitung.de/*",
+            "*://*.halternerzeitung.de/*"
         ],
-        "js": ["lib.js", "components/hellwegeranzeiger.js"],
+        "js": ["lib.js", "components/lensingmedia.js"],
         "run_at": "document_end"       
       }
     ] 
