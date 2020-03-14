@@ -8,9 +8,7 @@
 //  github.com/tobimori/unpaywall
 //
 //  notes:
-//  lensing media uses piano/tinypass, content gets removed afterwards
+//  blocking of tinypass script done in background.js
 //
 
-// TODO: Block Tinypass from loading
-
-document.getElementById("BaseText").classList.remove("PianoContent");
+document.getElementById("BaseText").classList.contains("PianoContent") && document.getElementById("BaseText").classList.remove("PianoContent");

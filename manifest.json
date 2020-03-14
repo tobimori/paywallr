@@ -18,6 +18,16 @@
       "128": "icons/icon-128.png"
     },
 
+    "background": {
+      "scripts": ["lib.js", "background.js"]
+   },
+ 	
+    "permissions": [
+      "<all_urls>",
+      "webRequest",
+      "webRequestBlocking"
+    ],
+
     "content_scripts": [
       {
         "matches": [

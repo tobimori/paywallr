@@ -77,9 +77,7 @@ This unlock mechanism is currently disabled.
 
 ### Saarbrücker Zeitung
 
-The Saarbrücker Zeitung saves the complete article and replaces it afterwards.
-
-This unlock mechanism is buggy, but the script providing the paywall mechanisms are blocked in the famous ad blocker uBlock Origin anyways.
+The Saarbrücker Zeitung saves the complete article and replaces it afterwards. Their paywall script is pretty bad and blocked by all common adblockers.
 
 ### NahverkehrHAMBURG
 
