@@ -79,7 +79,7 @@ DuMont stores the complete article in text form (i.e. without media and formatti
 
 The FAZ has a social media section [here](https://www.faz.net/social-media/instagram/), which is linked in their Instagram biography and shall be used to find articles they post about. Articles in this category can be unlocked by adding a ```?premium``` at the end.
 
-This unlock mechanism is currently disabled.
+This unlock mechanism is currently disabled, but still works fine.
 
 ### Saarbrücker Zeitung
 
