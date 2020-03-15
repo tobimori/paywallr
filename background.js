@@ -39,3 +39,5 @@ browser.webRequest.onBeforeRequest.addListener(
     },
     ["blocking"]
 );
+
+browser.browserAction.onClicked.addListener(console.log("clicked"));
