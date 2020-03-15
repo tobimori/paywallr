@@ -3,7 +3,7 @@
     "manifest_version": 2,
 
     "name": "Unpaywall",
-    "version": "1.2",
+    "version": "2.0",
     "author": "tobimori",
 
     "description": "__MSG_manifestDescription__",
