@@ -18,6 +18,7 @@ const removeElements = (...arrays) => {
 
 const listenerPaywalls = [
     "abendblatt",
-
+    "waz",
+    "ikz-online"
 ]
-const isListenerPaywalled = (details) => { if(listenerPaywalls.contains(details.originUrl.split("/", 3)[2].split(".",2)[1])) return true;};
+const isPaywalled = (details) => { if(listenerPaywalls.includes(details.originUrl.split(".",2)[1])) return true;};
