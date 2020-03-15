@@ -65,7 +65,7 @@ Madsack stores the complete article in text form (i.e. without media and formatt
 
 ### FUNKE Mediengruppe (e.g. Hamburger Abendblatt, Berliner Morgenpost, Thüringer Allgemeine, Westfalenpost)
 
-The CMS of the FUNKE Mediengruppe provides the complete article and deletes it afterwards. Unpaywall simply removes any scripts from the site.
+The CMS of the FUNKE Mediengruppe uses a solution by Piano, where the content gets removed afterwards. This script is easily blocked and requires no further work.
 
 ### VRM (e.g. Mittelhessen, Echo Online, Allgemeine Zeitung)
 
@@ -88,3 +88,7 @@ The Saarbrücker Zeitung saves the complete article and replaces it afterwards. 
 ### NahverkehrHAMBURG
 
 NahverkehrHAMBURG uses Steady to finance their site. All articles are available for free at release, but will be blocked with a popup after a few days. Only the view is blocked, so Unpaywall removes the element that advertises the paywall.
+
+### Lensing Media (e.g. Ruhrnachrichten)
+
+The CMS of Lensing Media uses a solution by Piano, where the content gets removed afterwards. Blocking this script works fine. Additionally, the content is blurred, but this blur is easily removeable by removing the class of the article object.
