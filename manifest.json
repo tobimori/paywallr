@@ -32,9 +32,10 @@
       },
       "default_title": "Unpaywall"
     },
-    
+
     "permissions": [
       "<all_urls>",
+      "activeTab",
       "webRequest",
       "webRequestBlocking"
     ],
