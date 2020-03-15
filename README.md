@@ -61,39 +61,36 @@ This extension is provided for **educational purposes only**. I do not endorse t
 
 ### Madsack (e.g. Leipziger Volkszeitung, Hannoversche Allgemeine Zeitung, Kieler Nachrichten)
 
-Madsack stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co. They also indicate that their article is available for free, presumably to achieve a higher ranking. The Web extension just reads this text and replaces the preview with it.
+> Madsack stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co. They also indicate that their article is available for free, presumably to achieve a higher ranking. The Web extension just reads this text and replaces the preview with it.
 
 ### FUNKE Mediengruppe (e.g. Hamburger Abendblatt, Berliner Morgenpost, Thüringer Allgemeine, Westfalenpost)
 
-The CMS of the FUNKE Mediengruppe uses a solution by Piano, where the content gets removed afterwards. This script is easily blocked and requires no further work.
+> The CMS of the FUNKE Mediengruppe uses a solution by Piano, where the content gets removed afterwards. This script is easily blocked and requires no further work.
 
 ### VRM (e.g. Mittelhessen, Echo Online, Allgemeine Zeitung)
 
-The CMS of the Verlagsgruppe Rhein-Main encrypts the article afterwards. They use a solution of the company LaterPay, whose encryption can be prevented by removing the configuration key used by LaterPay.
+> The CMS of the Verlagsgruppe Rhein-Main encrypts the article afterwards. They use a solution of the company LaterPay, whose encryption can be prevented by removing the configuration key used by LaterPay.
 
 ### DuMont Newsnet (e.g. Kölner Stadtanzeiger & Mitteldeutsche Zeitung)
 
-DuMont Newsnet stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co.
+> DuMont Newsnet stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co.
 
 ### Frankfurter Allgemeine Zeitung
 
-The FAZ has a social media section [here](https://www.faz.net/social-media/instagram/), which is linked in their Instagram biography and shall be used to find articles they post about. Articles in this category can be unlocked by adding a ```?premium``` at the end.
+> ***Never introduced.*** The FAZ has a social media section [here](https://www.faz.net/social-media/instagram/), which is linked in their Instagram biography and shall be used to find articles they post about. Articles in this category can be unlocked by adding a ```?premium``` at the end.
 
-This unlock mechanism is currently disabled, but still works fine.
-Never introduced.
+> This unlock mechanism is currently disabled, but still works fine when applying manually.
 
 ### Saarbrücker Zeitung
 
-The Saarbrücker Zeitung saves the complete article and replaces it afterwards. Their paywall script is pretty bad and blocked by all common adblockers.
+> The Saarbrücker Zeitung saves the complete article and replaces it afterwards. Their paywall script is pretty bad and blocked by all common adblockers.
 
 ### NahverkehrHAMBURG
 
-NahverkehrHAMBURG uses Steady to finance their site. All articles are available for free at release, but will be blocked with a popup after a few days. Only the view is blocked, so Unpaywall removes the element that advertises the paywall.
-
-Introduced in Version 1.1.
+> ***Introduced in Version 1.1.***
+> NahverkehrHAMBURG uses Steady to finance their site. All articles are available for free at release, but will be blocked with a popup after a few days. Only the view is blocked, so Unpaywall removes the element that advertises the paywall.
 
 ### Lensing Media (e.g. Ruhrnachrichten)
 
-The CMS of Lensing Media uses a solution by Piano, where the content gets removed afterwards. Blocking this script works fine. Additionally, the content is blurred, but this blur is easily removeable by removing the class of the article object.
-
-Introduced in Version 1.2/2.0.
+> ***Introduced in Version 1.2/2.0.***
+> The CMS of Lensing Media uses a solution by Piano, where the content gets removed afterwards. Blocking this script works fine. Additionally, the content is blurred, but this blur is easily removeable by removing the class of the article object.
