@@ -80,6 +80,7 @@ DuMont Newsnet stores the complete article in text form (i.e. without media and 
 The FAZ has a social media section [here](https://www.faz.net/social-media/instagram/), which is linked in their Instagram biography and shall be used to find articles they post about. Articles in this category can be unlocked by adding a ```?premium``` at the end.
 
 This unlock mechanism is currently disabled, but still works fine.
+Never introduced.
 
 ### Saarbrücker Zeitung
 
@@ -89,6 +90,10 @@ The Saarbrücker Zeitung saves the complete article and replaces it afterwards. 
 
 NahverkehrHAMBURG uses Steady to finance their site. All articles are available for free at release, but will be blocked with a popup after a few days. Only the view is blocked, so Unpaywall removes the element that advertises the paywall.
 
+Introduced in Version 1.1.
+
 ### Lensing Media (e.g. Ruhrnachrichten)
 
 The CMS of Lensing Media uses a solution by Piano, where the content gets removed afterwards. Blocking this script works fine. Additionally, the content is blurred, but this blur is easily removeable by removing the class of the article object.
+
+Introduced in Version 1.2/2.0.
