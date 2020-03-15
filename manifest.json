@@ -19,7 +19,7 @@
     },
 
     "background": {
-      "scripts": ["lib.js", "background.js"]
+      "scripts": ["lib.js", "settingslib.js", "background.js"]
     },
    
     "browser_action": {
@@ -56,7 +56,7 @@
             "*://*.ostsee-zeitung.de/*", 
             "*://*.paz-online.de/*", 
             "*://*.sn-online.de/*"],
-        "js": ["lib.js", "components/madsack.js"],
+        "js": ["lib.js", "settingslib.js", "components/madsack.js"],
         "run_at": "document_end" 
       }, {
         "matches": [
@@ -64,13 +64,13 @@
             "*://*.rundschau-online.de/*", 
             "*://*.mz-web.de/*"
         ],
-        "js": ["lib.js", "components/dumont.js"],
+        "js": ["lib.js", "settingslib.js", "components/dumont.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [
             "*://*.saarbruecker-zeitung.de/*"
         ],
-        "js": ["lib.js", "components/saarbruecker-zeitung.js"],
+        "js": ["lib.js", "settingslib.js", "components/saarbruecker-zeitung.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [
@@ -90,13 +90,13 @@
             "*://*.usinger-anzeiger.de/*", 
             "*://*.wormser-zeitung.de/*"
         ],
-        "js": ["lib.js", "components/laterpay-vrm.js"],
+        "js": ["lib.js", "settingslib.js", "components/laterpay-vrm.js"],
         "run_at": "document_start"       
       }, {
         "matches": [
             "*://*.nahverkehrhamburg.de/*"
         ],
-        "js": ["lib.js", "components/nahverkehrhamburg.js"],
+        "js": ["lib.js", "settingslib.js", "components/nahverkehrhamburg.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [
@@ -106,7 +106,7 @@
             "*://*.muensterlandzeitung.de/*",
             "*://*.halternerzeitung.de/*"
         ],
-        "js": ["lib.js", "components/lensingmedia.js"],
+        "js": ["lib.js", "settingslib.js", "components/lensingmedia.js"],
         "run_at": "document_end"       
       }
     ] 

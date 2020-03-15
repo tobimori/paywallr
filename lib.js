@@ -14,4 +14,4 @@ const removeElements = (...arrays) => {
     [...arrays].forEach(([...array]) => array.filter(n => !!n)
                                  .forEach(n => n.remove())
                   );
-}
+};
