@@ -13,10 +13,12 @@
 
 const d = document;
 
+// remove any meta tags with the laterpay config token on any change in document
 const observer = new MutationObserver(function (mutations, me) {
   [...d.getElementsByTagName("meta")].map(n => n.getAttribute("property") == "laterpay:connector:config_token" && n.remove());
 });
 
+// check if article is locked, then start the observer
 d.getElementsByTagName("meta")[1].getAttribute("name") == "isPremiumArticle" && 
 d.getElementsByTagName("meta")[1].getAttribute("content") == "1" &&
 observer.observe(d, {
