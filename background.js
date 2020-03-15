@@ -40,8 +40,3 @@ browser.webRequest.onBeforeRequest.addListener(
     ["blocking"]
 );
 
-browser.browserAction.onClicked.addListener((tab) => {
-    browser.browserAction.setBadgeText({text: "ON", tabId: tab.id});
-    console.log(tab.url);
-  }
-);

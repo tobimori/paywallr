@@ -2,7 +2,7 @@
 
 Read articles locked behind paywalls of over 40 german local newspapers.
 
-This extension is provided for **educational purposes only**. I do not endorse the use of it and **strongly** encourage you to subscribe to your favourite newspaper and support local journalism.
+This extension is provided for **educational purposes *only***. I do not endorse the use of it and **strongly** encourage you to subscribe to your favourite newspaper and support local journalism.
 
 **[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" height="40">](https://addons.mozilla.org/firefox/addon/unpaywall-germany/?src=external-github-bigbutton-downloads)**
 **[<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_496x150.png" height="39">](https://chrome.google.com/webstore/detail/unpaywall/afeichgdccjeclmcfiofcacpecigafoi/?src=external-github-bigbutton-downloads)**

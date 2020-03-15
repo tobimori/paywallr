@@ -8,3 +8,11 @@
 //  github.com/tobimori/unpaywall
 //
 
+browser.browserAction.onClicked.addListener((tab) => {
+    browser.cookies.set({
+        url: tab.url,
+        name: "unpaywallDisabled",
+        value: "true"
+      });
+  }
+);
