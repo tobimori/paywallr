@@ -15,10 +15,3 @@ const removeElements = (...arrays) => {
                                  .forEach(n => n.remove())
                   );
 }
-
-const listenerPaywalls = [
-    "abendblatt",
-    "waz",
-    "ikz-online"
-]
-const isPaywalled = (details) => { if(listenerPaywalls.includes(details.originUrl.split(".",2)[1])) return true;};

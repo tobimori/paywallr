@@ -17,6 +17,7 @@ This extension is provided for **educational purposes only**. I do not endorse t
 * [Neue Ruhr Zeitung (NRZ)](https://nrz.de/)
 * [Westfalenpost](https://wp.de/)
 * [Ostthüringer Zeitung](https://otz.de/)
+* [Iserlohner Kreisanzeiger und Zeitung](https://ikz-online.de)
 * [Kölner Stadtanzeiger](https://ksta.de/)
 * [Kölnische Rundschau](https://www.rundschau-online.de/)
 * [Mitteldeutsche Zeitung](https://www.mz-web.de/)
@@ -50,6 +51,11 @@ This extension is provided for **educational purposes only**. I do not endorse t
 * [Wormser Zeitung](https://www.wormser-zeitung.de/)
 * [Saarbrücker Zeitung](https://www.saarbruecker-zeitung.de/)
 * [NahverkehrHAMBURG](https://www.nahverkehrhamburg.de/)
+* [Ruhrnachrichten](https://www.ruhrnachrichten.de)
+* [Hellweger Anzeiger](https://www.hellwegeranzeiger.de)
+* [Dorstener Zeitung](https://www.dorstenerzeitung.de)
+* [Münsterlandzeitung](https://www.muensterlandzeitung.de)
+* [Halterner Zeitung](https://www.halternerzeitung.de)
 
 ## Why (and how) does this work?!
 

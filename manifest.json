@@ -56,20 +56,6 @@
         "run_at": "document_idle"       
       }, {
         "matches": [
-            "*://*.thueringer-allgemeine.de/*", 
-            "*://*.abendblatt.de/*", 
-            "*://*.waz.de/*", 
-            "*://*.nrz.de/*", 
-            "*://*.wr.de/*", 
-            "*://*.wp.de/*", 
-            "*://*.otz.de/*", 
-            "*://*.morgenpost.de/*",
-            "*://*.ikz-online.de/*"
-        ],
-        "js": ["lib.js", "components/funke.js"],
-        "run_at": "document_start"       
-      }, {
-        "matches": [
             "*://*.saarbruecker-zeitung.de/*"
         ],
         "js": ["lib.js", "components/saarbruecker-zeitung.js"],
