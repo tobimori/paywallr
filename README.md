@@ -71,9 +71,9 @@ The CMS of the FUNKE Mediengruppe uses a solution by Piano, where the content ge
 
 The CMS of the Verlagsgruppe Rhein-Main encrypts the article afterwards. They use a solution of the company LaterPay, whose encryption can be prevented by removing the configuration key used by LaterPay.
 
-### DuMont (e.g. Kölner Stadtanzeiger & Mitteldeutsche Zeitung)
+### DuMont Newsnet (e.g. Kölner Stadtanzeiger & Mitteldeutsche Zeitung)
 
-DuMont stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co.
+DuMont Newsnet stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co.
 
 ### Frankfurter Allgemeine Zeitung
 
