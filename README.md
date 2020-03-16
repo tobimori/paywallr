@@ -78,7 +78,7 @@ This extension is provided for **educational purposes *only***. I do not endorse
 
 > ***Never introduced.*** The FAZ has a social media section [here](https://www.faz.net/social-media/instagram/), which is linked in their Instagram biography and shall be used to find articles they post about. Articles in this category can be unlocked by adding a ```?premium``` at the end.
 
-> This unlock mechanism is currently disabled, but still works fine when applying manually.
+> Fixed as of 03/16/2020
 
 ### Saarbrücker Zeitung
 

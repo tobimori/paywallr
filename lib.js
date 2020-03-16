@@ -8,7 +8,7 @@
 //  github.com/tobimori/unpaywall
 //
 
-// browser detection by some random guy on stackoverflow
+// browser detection by rob-w on stackoverflow
 // Firefox
 const isFirefox = typeof InstallTrigger !== 'undefined';
 // Chrome
