@@ -46,3 +46,4 @@ chrome.webRequest.onBeforeRequest.addListener(
     ["blocking"]
 );
 
+// block ze.tt steady

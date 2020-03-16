@@ -110,6 +110,12 @@
         ],
         "js": ["lib.js", "components/lensingmedia.js"],
         "run_at": "document_end"       
+      }, {
+        "matches": [
+            "*://*.ze.tt/*"
+        ],
+        "js": ["lib.js", "components/zettgreen.js"],
+        "run_at": "document_start"       
       }
     ] 
 
