@@ -19,8 +19,7 @@ const observer = new MutationObserver(function (mutations, me) {
 });
 
 // check if article is locked, then start the observer
-d.getElementsByTagName("meta")[1].getAttribute("name") == "isPremiumArticle" && 
-d.getElementsByTagName("meta")[1].getAttribute("content") == "1" &&
+d.getElementsByClassName("vrm-premium") &&
 observer.observe(d, {
   childList: true,
   subtree: true
