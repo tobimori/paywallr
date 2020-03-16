@@ -26,12 +26,17 @@ const tinypassPaywalls = [
     "ikz-online"
 ]
 
-const isTinypass = (origin) => { if(tinypassPaywalls.includes(origin.split(".",2)[1])) return true;};
+const isTinypass = (details) => { 
+    let t;
+    // check to enable cross plattform (firefox uses originUrl, chrome uses initiator)
+    details.originUrl ? t = tinypassPaywalls.includes(details.originUrl.split(".",2)[1]) : t = tinypassPaywalls.includes(details.initiator.split(".",2)[1]);
+    return t;
+};
 
 // block all tinypass scripts (used by lensing media & funke)
-browser.webRequest.onBeforeRequest.addListener(
+chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
-        if (!isTinypass(details.originUrl)) return;
+        if (!isTinypass(details)) return;
         return {cancel: true};
     }, {
         urls: ["*://*.tinypass.com/*"],

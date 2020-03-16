@@ -8,6 +8,12 @@
 //  github.com/tobimori/unpaywall
 //
 
+// browser detection by some random guy on stackoverflow
+// Firefox
+const isFirefox = typeof InstallTrigger !== 'undefined';
+// Chrome
+const isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+
 // orginally written by Lukas Fruntke
 // https://github.com/tobimori/unpaywall-funke/unpaywall-funke.user.js
 const removeElements = (...arrays) => {

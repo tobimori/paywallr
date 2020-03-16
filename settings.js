@@ -4,6 +4,7 @@
 //  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
 //          /_/        /___/                           
 //
-//  settings library
+//  settings content script
 //  github.com/tobimori/unpaywall
 //
+
