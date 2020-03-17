@@ -4,8 +4,7 @@
 //  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
 //          /_/        /___/                           
 //
-//  background listener
-//  blocks scripts before loading
+//  tinypass component
 //  github.com/tobimori/unpaywall
 //
 
@@ -45,5 +44,3 @@ chrome.webRequest.onBeforeRequest.addListener(
     },
     ["blocking"]
 );
-
-// block ze.tt steady

@@ -19,7 +19,12 @@
     },
 
     "background": {
-      "scripts": ["lib.js", "settingslib.js", "background.js"]
+      "scripts": [
+        "lib.js", 
+        "settingslib.js", 
+        "components/tinypass.js", 
+        "components/zettgreen.js"
+      ]
     },
 
     "browser_action": {
@@ -110,12 +115,6 @@
         ],
         "js": ["lib.js", "components/lensingmedia.js"],
         "run_at": "document_end"       
-      }, {
-        "matches": [
-            "*://*.ze.tt/*"
-        ],
-        "js": ["lib.js", "components/zettgreen.js"],
-        "run_at": "document_start"       
       }
     ] 
 

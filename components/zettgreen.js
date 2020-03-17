@@ -13,13 +13,13 @@
 //  or at least header working
 // 
 
-const d = document;
-
-const observer = new MutationObserver(function (mutations, me) {
-  [...d.getElementsByTagName("script")].map(n => !n.getAttribute("src") && n.remove());
-});
-
-observer.observe(d, {
-  childList: true,
-  subtree: true
-});
+// block ze.tt steady, also blocks side header #rip
+chrome.webRequest.onBeforeRequest.addListener(
+  function(details) {
+      return {cancel: true};
+  }, {
+      urls: ["*://*.ze.tt/*"],
+      types: ["script"]
+  },
+  ["blocking"]
+);

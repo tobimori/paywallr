@@ -8,7 +8,7 @@
 //  github.com/tobimori/unpaywall
 //
 //  notes:
-//  blocking of tinypass script done in background.js
+//  blocking of tinypass script done in tinypass.js
 //
 
 // removes blur from content
