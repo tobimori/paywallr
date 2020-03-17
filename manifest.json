@@ -101,9 +101,10 @@
         "run_at": "document_start"       
       }, {
         "matches": [
-            "*://*.nahverkehrhamburg.de/*"
+            "*://*.nahverkehrhamburg.de/*",
+            "*://*.nrwz.de/*"
         ],
-        "js": ["lib.js", "components/nahverkehrhamburg.js"],
+        "js": ["lib.js", "components/steady-cleanslate.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [

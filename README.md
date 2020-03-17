@@ -55,6 +55,8 @@ This extension is provided for **educational purposes *only***. I do not endorse
 * [Dorstener Zeitung](https://www.dorstenerzeitung.de)
 * [Münsterlandzeitung](https://www.muensterlandzeitung.de)
 * [Halterner Zeitung](https://www.halternerzeitung.de)
+* [Neue Rottweiler Zeitung](https://www.nrwz.de)
+* [ze.tt](https://ze.tt)
 
 ## Why (and how) does this work?!
 
