@@ -1,4 +1,5 @@
 # unpaywall [![Mozilla Add-on](https://img.shields.io/amo/v/unpaywall-germany?style=flat-square&logo=mozilla-firefox)](https://addons.mozilla.org/firefox/addon/unpaywall-germany/?src=external-github-shield-downloads)
+> **Tear down this ~~wall~~ paywall!**
 
 Read articles locked behind paywalls of over 40 german local newspapers.
 
