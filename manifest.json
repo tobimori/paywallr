@@ -23,7 +23,8 @@
         "lib.js", 
         "settingslib.js", 
         "components/tinypass.js", 
-        "components/zettgreen.js"
+        "components/zettgreen.js",
+        "components/laterpay/blocker.js"
       ]
     },
 
@@ -49,6 +50,12 @@
 
     "content_scripts": [
       {
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["browseraction.js"],
+        "run_at": "document_start"       
+      }, {
         "matches": [
             "*://*.waz-online.de/*", 
             "*://*.cellesche-zeitung.de/*", 
@@ -97,7 +104,7 @@
             "*://*.usinger-anzeiger.de/*", 
             "*://*.wormser-zeitung.de/*"
         ],
-        "js": ["lib.js", "components/laterpay-vrm.js"],
+        "js": ["lib.js", "components/laterpay/vrm.js"],
         "run_at": "document_start"       
       }, {
         "matches": [
@@ -115,6 +122,12 @@
             "*://*.halternerzeitung.de/*"
         ],
         "js": ["lib.js", "components/lensingmedia.js"],
+        "run_at": "document_end"       
+      }, {
+        "matches": [
+            "*://*.bergedorfer-zeitung.de/*"
+        ],
+        "js": ["lib.js", "components/laterpay/deobfuscator.js"],
         "run_at": "document_end"       
       }
     ] 
