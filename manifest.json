@@ -129,6 +129,12 @@
         ],
         "js": ["lib.js", "components/laterpay/deobfuscator.js"],
         "run_at": "document_end"       
+      }, {
+        "matches": [
+            "*://*.faz.net/*"
+        ],
+        "js": ["lib.js", "components/faz.js"],
+        "run_at": "document_end"       
       }
     ] 
 
