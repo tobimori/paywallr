@@ -14,11 +14,6 @@ const mReq = new XMLHttpRequest();
 const oUrl = new URL(window.location.href);
 const mUrl = new URL(oUrl.pathname, "https://m.faz.net/");
 
-const updateProgress = (e) => {
-    if(ie.lengthComputable) d.getElementsByClassName("atc-TextParagraph")[0].innerText = "Unlocking: " + e.loaded / e.total * 100 + " %";
-    console.log("Unlocking: " + e.loaded / e.total * 100 + " %")
-};
-
 const downloadDone = (e) => {
     d.getElementsByClassName("atc-ReadTime_Text")[0].innerText = "Unlocked by Unpaywall";
     //console.log(mReq.response.getElementById("schemaOrgJson"));
