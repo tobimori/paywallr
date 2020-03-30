@@ -18,22 +18,22 @@ This extension is provided for **educational purposes *only***. I do not endorse
 * [Westfalenpost](https://wp.de/)
 * [Ostthüringer Zeitung](https://otz.de/)
 * [Iserlohner Kreisanzeiger und Zeitung](https://ikz-online.de)
-* [Kölner Stadtanzeiger](https://ksta.de/)
-* [Kölnische Rundschau](https://www.rundschau-online.de/)
-* [Mitteldeutsche Zeitung](https://www.mz-web.de/)
-* [Wolfsburger Allgemeine/Aller-Zeitung](https://waz-online.de/)
-* [Cellesche Zeitung](https://www.cellesche-zeitung.de/)
-* [Dresdner Neuste Nachrichten](https://www.dnn.de/)
-* [Göttinger Tageblatt](https://www.goettinger-tageblatt.de/)
-* [Hannoversche Allgemeine Zeitung](https://www.haz.de/)
-* [Kieler Nachrichten](https://www.kn-online.de/)
-* [Leipziger Volkszeitung](https://www.lvz.de/)
-* [Lübecker Nachrichten](https://www.ln-online.de/)
-* [Märkische Allgemeine](https://www.maz-online.de/)
-* [Neue Presse](https://www.neuepresse.de/)
-* [Ostsee-Zeitung](https://www.ostsee-zeitung.de/)
-* [Peiner Allgemeine](https://www.paz-online.de/)
-* [Schaumburger Nachrichten](https://www.sn-online.de/)
+* [Kölner Stadtanzeiger](https://ksta.de/) *Text only*
+* [Kölnische Rundschau](https://www.rundschau-online.de/) *Text only*
+* [Mitteldeutsche Zeitung](https://www.mz-web.de/) *Text only*
+* [Wolfsburger Allgemeine/Aller-Zeitung](https://waz-online.de/) *Text only*
+* [Cellesche Zeitung](https://www.cellesche-zeitung.de/) *Text only*
+* [Dresdner Neuste Nachrichten](https://www.dnn.de/) *Text only*
+* [Göttinger Tageblatt](https://www.goettinger-tageblatt.de/) *Text only*
+* [Hannoversche Allgemeine Zeitung](https://www.haz.de/) *Text only*
+* [Kieler Nachrichten](https://www.kn-online.de/) *Text only*
+* [Leipziger Volkszeitung](https://www.lvz.de/) *Text only*
+* [Lübecker Nachrichten](https://www.ln-online.de/) *Text only*
+* [Märkische Allgemeine](https://www.maz-online.de/) *Text only*
+* [Neue Presse](https://www.neuepresse.de/) *Text only*
+* [Ostsee-Zeitung](https://www.ostsee-zeitung.de/) *Text only*
+* [Peiner Allgemeine](https://www.paz-online.de/) *Text only*
+* [Schaumburger Nachrichten](https://www.sn-online.de/) *Text only*
 * [Allgemeine Zeitung](https://www.allgemeine-zeitung.de/)
 * [Burgstädter Zeitung](https://www.buerstaedter-zeitung.de/)
 * [Echo Online](https://www.echo-online.de/)
@@ -50,14 +50,16 @@ This extension is provided for **educational purposes *only***. I do not endorse
 * [Usinger Anzeiger](https://www.usinger-anzeiger.de/)
 * [Wormser Zeitung](https://www.wormser-zeitung.de/)
 * [Saarbrücker Zeitung](https://www.saarbruecker-zeitung.de/)
-* [NahverkehrHAMBURG](https://www.nahverkehrhamburg.de/)
-* [Ruhrnachrichten](https://www.ruhrnachrichten.de)
-* [Hellweger Anzeiger](https://www.hellwegeranzeiger.de)
-* [Dorstener Zeitung](https://www.dorstenerzeitung.de)
-* [Münsterlandzeitung](https://www.muensterlandzeitung.de)
-* [Halterner Zeitung](https://www.halternerzeitung.de)
-* [Neue Rottweiler Zeitung](https://www.nrwz.de)
-* [ze.tt](https://ze.tt)
+* [NahverkehrHAMBURG](https://www.nahverkehrhamburg.de/) *v1.1+*
+* [Ruhrnachrichten](https://www.ruhrnachrichten.de) *v2.0+*
+* [Hellweger Anzeiger](https://www.hellwegeranzeiger.de) *v2.0+*
+* [Dorstener Zeitung](https://www.dorstenerzeitung.de) *v2.0+*
+* [Münsterlandzeitung](https://www.muensterlandzeitung.de) *v2.0+*
+* [Halterner Zeitung](https://www.halternerzeitung.de) *v2.0+*
+* [Neue Rottweiler Zeitung](https://www.nrwz.de) *v2.0+*
+* [ze.tt](https://ze.tt) *v2.0+*
+* [Frankfurter Allgemeine Zeitung](https://www.faz.net) *Text only, pictures available in gallery - v2.0+*
+* [Bergedorfer Zeitung](https://www.bergedorfer-zeitung.de/) *v2.0+*
 
 ## Why (and how) does this work?!
 
@@ -77,15 +79,17 @@ This extension is provided for **educational purposes *only***. I do not endorse
 
 > DuMont Newsnet stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co.
 
+### Saarbrücker Zeitung
+
+> The Saarbrücker Zeitung saves the complete article and replaces it afterwards. Their paywall script is pretty bad and blocked by all common adblockers.
+
 ### Frankfurter Allgemeine Zeitung
 
 > ***Never introduced.*** The FAZ has a social media section [here](https://www.faz.net/social-media/instagram/), which is linked in their Instagram biography and shall be used to find articles they post about. Articles in this category can be unlocked by adding a ```?premium``` at the end.
 
 > Fixed as of 03/16/2020
 
-### Saarbrücker Zeitung
-
-> The Saarbrücker Zeitung saves the complete article and replaces it afterwards. Their paywall script is pretty bad and blocked by all common adblockers.
+> ***Introduced in Version 2.0.*** Article text will be loaded from a JSON only available on the mobile page using a XMLHttpRequest with a spoofed user-agent.
 
 ### NahverkehrHAMBURG
 
@@ -94,5 +98,10 @@ This extension is provided for **educational purposes *only***. I do not endorse
 
 ### Lensing Media (e.g. Ruhrnachrichten)
 
-> ***Introduced in Version 1.2/2.0.***
+> ***Introduced in Version 2.0.***
 > The CMS of Lensing Media uses a solution by Piano, where the content gets removed afterwards. Blocking this script works fine. Additionally, the content is blurred, but this blur is easily removeable by removing the class of the article object.
+
+### Bergedorfer Zeitung
+
+> ***Introduced in Version 2.0.***
+> The Bergedorfer Zeitung uses a solution by Laterpay, which decrypts the text after paying. It's obfuscated with ROT13 -1/25.
