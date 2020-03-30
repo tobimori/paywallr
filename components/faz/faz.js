@@ -22,7 +22,9 @@ const downloadDone = (e) => {
 mReq.addEventListener("load", downloadDone);
 mReq.open("GET", mUrl.href);
 mReq.responseType = "document";
-mReq.setRequestHeader("User-Agent", "Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36");
+// DONE: set User Agent using webRequest API for cross plattform
+// now in components/faz/useragent.js
+// mReq.setRequestHeader("User-Agent", "Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36");
 d.getElementsByClassName("js-atc-ContainerPaywall atc-ContainerPaywall") && mReq.send();
 removeElements(
     d.getElementsByClassName("js-atc-ContainerPaywall atc-ContainerPaywall"), // Paywall ad
@@ -30,7 +32,7 @@ removeElements(
     d.getElementsByClassName("o-Icon atc-ReadTime_Icon"), // Reading time icon
     d.getElementsByClassName("atc-TextParagraph") // paragraphs
 );
-d.getElementsByClassName("atc-Text js-atc-Text")[0].innerHTML = '<div class="atc-Text js-atc-Text"><p class="atc-TextParagraph">Unlocking...</p></div>'
+d.getElementsByClassName("atc-Text js-atc-Text")[0].innerHTML = '<p class="atc-TextParagraph">Unlocking...</p>'
 d.getElementsByClassName("atc-ReadTime_Text")[0].innerText = "Unlocking..."
 
 

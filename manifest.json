@@ -24,7 +24,8 @@
         "settingslib.js", 
         "components/tinypass.js", 
         "components/zettgreen.js",
-        "components/laterpay/blocker.js"
+        "components/laterpay/blocker.js",
+        "components/faz/useragent.js"
       ]
     },
 
@@ -133,7 +134,7 @@
         "matches": [
             "*://*.faz.net/*"
         ],
-        "js": ["lib.js", "components/faz.js"],
+        "js": ["lib.js", "components/faz/faz.js"],
         "run_at": "document_end"       
       }
     ] 
