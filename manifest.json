@@ -133,9 +133,15 @@
         "run_at": "document_end"       
       }, {
         "matches": [
-            "*://*.faz.net/*"
+            "*://www.faz.net/*"
         ],
         "js": ["lib.js", "components/faz/faz.js"],
+        "run_at": "document_end"       
+      }, {
+        "matches": [
+            "*://m.faz.net/*"
+        ],
+        "js": ["lib.js", "components/faz/mobile.js"],
         "run_at": "document_end"       
       }
     ] 
