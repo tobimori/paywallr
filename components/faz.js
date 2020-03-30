@@ -24,16 +24,16 @@ mReq.open("GET", mUrl.href);
 mReq.responseType = "document";
 mReq.setRequestHeader("User-Agent", "Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36");
 d.getElementsByClassName("js-atc-ContainerPaywall atc-ContainerPaywall") && mReq.send();
-d.getElementsByClassName("atc-TextParagraph")[1].innerText = "Unlocking..."
-d.getElementsByClassName("atc-ReadTime_Text")[0].innerText = "Unlocking..."
-
-
 removeElements(
     d.getElementsByClassName("js-atc-ContainerPaywall atc-ContainerPaywall"), // Paywall ad
     d.getElementsByClassName("atc-ContainerInfo js-atc-ContainerInfo"), // Author information
     d.getElementsByClassName("o-Icon atc-ReadTime_Icon"), // Reading time icon
-    d.getElementsByClassName("First atc-TextParagraph") // First paragraph
+    d.getElementsByClassName("atc-TextParagraph") // paragraphs
 );
+d.getElementsByClassName("atc-Text js-atc-Text")[0].innerHTML = '<div class="atc-Text js-atc-Text"><p class="atc-TextParagraph">Unlocking...</p></div>'
+d.getElementsByClassName("atc-ReadTime_Text")[0].innerText = "Unlocking..."
+
+
 
 
 
