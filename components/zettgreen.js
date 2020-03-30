@@ -14,7 +14,7 @@
 // 
 
 // block ze.tt steady, also blocks side header #rip
-chrome.webRequest.onBeforeRequest.addListener(
+extapi.webRequest.onBeforeRequest.addListener(
   function(details) {
       return {cancel: true};
   }, {

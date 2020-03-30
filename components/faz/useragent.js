@@ -8,7 +8,7 @@
 //  github.com/tobimori/paywallr
 //
 
-chrome.webRequest.onBeforeSendHeaders.addListener(
+extapi.webRequest.onBeforeSendHeaders.addListener(
     function(details) {
         // Replace the User-Agent header so FAZ doesn't redirect
         console.log(details);

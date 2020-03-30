@@ -34,7 +34,7 @@ const isTinypass = (details) => {
 };
 
 // block all tinypass scripts (used by lensing media & funke)
-chrome.webRequest.onBeforeRequest.addListener(
+extapi.webRequest.onBeforeRequest.addListener(
     function(details) {
         if (!isTinypass(details)) return;
         return {cancel: true};

@@ -9,6 +9,7 @@
 //
 
 const d = document;
+const extapi = chrome || browser;
 
 // browser detection by rob-w on stackoverflow
 // Firefox

@@ -21,7 +21,7 @@ const isLaterpay = (details) => {
 };
 
 // block all tinypass scripts (used by lensing media & funke)
-chrome.webRequest.onBeforeRequest.addListener(
+extapi.webRequest.onBeforeRequest.addListener(
     function(details) {
         if (!isLaterpay(details)) return;
         return {cancel: true};
