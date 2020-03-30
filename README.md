@@ -18,9 +18,9 @@ This extension is provided for **educational purposes *only***. I do not endorse
 * [Westfalenpost](https://wp.de/)
 * [Ostthüringer Zeitung](https://otz.de/)
 * [Iserlohner Kreisanzeiger und Zeitung](https://ikz-online.de)
-* [Kölner Stadtanzeiger](https://ksta.de/) *Text only*
-* [Kölnische Rundschau](https://www.rundschau-online.de/) *Text only*
-* [Mitteldeutsche Zeitung](https://www.mz-web.de/) *Text only*
+* [Kölner Stadtanzeiger](https://ksta.de/)
+* [Kölnische Rundschau](https://www.rundschau-online.de/)
+* [Mitteldeutsche Zeitung](https://www.mz-web.de/)
 * [Wolfsburger Allgemeine/Aller-Zeitung](https://waz-online.de/) *Text only*
 * [Cellesche Zeitung](https://www.cellesche-zeitung.de/) *Text only*
 * [Dresdner Neuste Nachrichten](https://www.dnn.de/) *Text only*
@@ -77,7 +77,7 @@ This extension is provided for **educational purposes *only***. I do not endorse
 
 ### DuMont Newsnet (e.g. Kölner Stadtanzeiger & Mitteldeutsche Zeitung)
 
-> DuMont Newsnet stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co.
+> DuMont hides the article with css and displays a paywall container over it.
 
 ### Saarbrücker Zeitung
 
