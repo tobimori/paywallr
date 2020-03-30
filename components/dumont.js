@@ -8,6 +8,9 @@
 //  github.com/tobimori/paywallr
 //
 
+// TODO: background block of paywall scripts
+// currently done my ublock probably
+
 if (d.getElementsByClassName("content-behind-wall hide-paid-content")[0]) {
     removeElements(d.getElementsByClassName("ssoTemplate pay wall"), d.getElementsByClassName("logo title backToLandingPage"));
     d.getElementById('c1-template-platzhalter').remove();
