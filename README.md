@@ -18,56 +18,56 @@ This extension is provided for **educational purposes *only***. I do not endorse
 
 ## Supported sites
 
-* [Berliner Morgenpost](https://morgenpost.de/)
-* [Hamburger Abendblatt](https://abendblatt.de/)
-* [Westdeutsche Allgemeine Zeitung](https://waz.de/)
-* [Thüringer Allgemeine](https://thueringer-allgemeine.de/)
-* [Neue Ruhr Zeitung (NRZ)](https://nrz.de/)
-* [Westfalenpost](https://wp.de/)
-* [Ostthüringer Zeitung](https://otz.de/)
-* [Iserlohner Kreisanzeiger und Zeitung](https://ikz-online.de)
-* [Kölner Stadtanzeiger](https://ksta.de/)
-* [Kölnische Rundschau](https://www.rundschau-online.de/)
-* [Mitteldeutsche Zeitung](https://www.mz-web.de/)
-* [Wolfsburger Allgemeine/Aller-Zeitung](https://waz-online.de/) *Text only*
-* [Cellesche Zeitung](https://www.cellesche-zeitung.de/) *Text only*
-* [Dresdner Neuste Nachrichten](https://www.dnn.de/) *Text only*
-* [Göttinger Tageblatt](https://www.goettinger-tageblatt.de/) *Text only*
-* [Hannoversche Allgemeine Zeitung](https://www.haz.de/) *Text only*
-* [Kieler Nachrichten](https://www.kn-online.de/) *Text only*
-* [Leipziger Volkszeitung](https://www.lvz.de/) *Text only*
-* [Lübecker Nachrichten](https://www.ln-online.de/) *Text only*
-* [Märkische Allgemeine](https://www.maz-online.de/) *Text only*
-* [Neue Presse](https://www.neuepresse.de/) *Text only*
-* [Ostsee-Zeitung](https://www.ostsee-zeitung.de/) *Text only*
-* [Peiner Allgemeine](https://www.paz-online.de/) *Text only*
-* [Schaumburger Nachrichten](https://www.sn-online.de/) *Text only*
 * [Allgemeine Zeitung](https://www.allgemeine-zeitung.de/)
+* [Bergedorfer Zeitung](https://www.bergedorfer-zeitung.de/) *v2.0+*
+* [Berliner Morgenpost](https://morgenpost.de/)
 * [Burgstädter Zeitung](https://www.buerstaedter-zeitung.de/)
+* [Cellesche Zeitung](https://www.cellesche-zeitung.de/) *Text only*
+* [Dorstener Zeitung](https://www.dorstenerzeitung.de) *v2.0+*
+* [Dresdner Neuste Nachrichten](https://www.dnn.de/) *Text only*
 * [Echo Online](https://www.echo-online.de/)
-* [Mittelhessen.de](https://www.mittelhessen.de/)
+* [Frankfurter Allgemeine Zeitung](https://www.faz.net) *Text only, pictures available in gallery - v2.0+*
 * [Giessener Anzeiger](https://www.giessener-anzeiger.de/)
+* [Göttinger Tageblatt](https://www.goettinger-tageblatt.de/) *Text only*
+* [Halterner Zeitung](https://www.halternerzeitung.de) *v2.0+*
+* [Hamburger Abendblatt](https://abendblatt.de/)
+* [Hannoversche Allgemeine Zeitung](https://www.haz.de/) *Text only*
+* [Hellweger Anzeiger](https://www.hellwegeranzeiger.de) *v2.0+*
 * [Hochheimer Zeitung](https://www.hochheimer-zeitung.de/)
 * [Hofheimer Zeitung](https://www.hofheimer-zeitung.de/)
-* [Wiesbadener Kurier](https://www.wiesbadener-kurier.de/)
+* [Iserlohner Kreisanzeiger und Zeitung](https://ikz-online.de)
+* [Kieler Nachrichten](https://www.kn-online.de/) *Text only*
 * [Kreis-Anzeiger](https://www.kreis-anzeiger.de/)
+* [Kölner Stadtanzeiger](https://ksta.de/)
+* [Kölnische Rundschau](https://www.rundschau-online.de/)
 * [Lampertheimer Zeitung](https://www.lampertheimer-zeitung.de/)
 * [Lauterbacher Anzeiger](https://www.lauterbacher-anzeiger.de/)
+* [Leipziger Volkszeitung](https://www.lvz.de/) *Text only*
+* [Lübecker Nachrichten](https://www.ln-online.de/) *Text only*
 * [Main-Spitze](https://www.main-spitze.de/)
-* [Oberhessische Zeitung](https://www.oberhessische-zeitung.de/)
-* [Usinger Anzeiger](https://www.usinger-anzeiger.de/)
-* [Wormser Zeitung](https://www.wormser-zeitung.de/)
-* [Saarbrücker Zeitung](https://www.saarbruecker-zeitung.de/)
-* [NahverkehrHAMBURG](https://www.nahverkehrhamburg.de/) *v1.1+*
-* [Ruhrnachrichten](https://www.ruhrnachrichten.de) *v2.0+*
-* [Hellweger Anzeiger](https://www.hellwegeranzeiger.de) *v2.0+*
-* [Dorstener Zeitung](https://www.dorstenerzeitung.de) *v2.0+*
+* [Mitteldeutsche Zeitung](https://www.mz-web.de/)
+* [Mittelhessen.de](https://www.mittelhessen.de/)
+* [Märkische Allgemeine](https://www.maz-online.de/) *Text only*
 * [Münsterlandzeitung](https://www.muensterlandzeitung.de) *v2.0+*
-* [Halterner Zeitung](https://www.halternerzeitung.de) *v2.0+*
+* [NahverkehrHAMBURG](https://www.nahverkehrhamburg.de/) *v1.1+*
+* [Neue Presse](https://www.neuepresse.de/) *Text only*
 * [Neue Rottweiler Zeitung](https://www.nrwz.de) *v2.0+*
+* [Neue Ruhr Zeitung (NRZ)](https://nrz.de/)
+* [Oberhessische Zeitung](https://www.oberhessische-zeitung.de/)
+* [Ostsee-Zeitung](https://www.ostsee-zeitung.de/) *Text only*
+* [Ostthüringer Zeitung](https://otz.de/)
+* [Peiner Allgemeine](https://www.paz-online.de/) *Text only*
+* [Ruhrnachrichten](https://www.ruhrnachrichten.de) *v2.0+*
+* [Saarbrücker Zeitung](https://www.saarbruecker-zeitung.de/)
+* [Schaumburger Nachrichten](https://www.sn-online.de/) *Text only*
+* [Thüringer Allgemeine](https://thueringer-allgemeine.de/)
+* [Usinger Anzeiger](https://www.usinger-anzeiger.de/)
+* [Westdeutsche Allgemeine Zeitung](https://waz.de/)
+* [Westfalenpost](https://wp.de/)
+* [Wiesbadener Kurier](https://www.wiesbadener-kurier.de/)
+* [Wolfsburger Allgemeine/Aller-Zeitung](https://waz-online.de/) *Text only*
+* [Wormser Zeitung](https://www.wormser-zeitung.de/)
 * [ze.tt](https://ze.tt) *v2.0+*
-* [Frankfurter Allgemeine Zeitung](https://www.faz.net) *Text only, pictures available in gallery - v2.0+*
-* [Bergedorfer Zeitung](https://www.bergedorfer-zeitung.de/) *v2.0+*
 
 ## Why (and how) does this work?!
 
