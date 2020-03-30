@@ -1,11 +1,11 @@
-//                                         ____
-//   __ _____  ___  ___ ___ ___    _____ _/ / /
-//  / // / _ \/ _ \/ _ `/ // / |/|/ / _ `/ / / 
-//  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
-//          /_/        /___/                           
+//                                 ____   
+//     ___  ___ ___ ___    _____ _/ / /___
+//    / _ \/ _ `/ // / |/|/ / _ `/ / / __/
+//   / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
+//  /_/        /___/                      
 //
 //  faz user agent component
-//  github.com/tobimori/unpaywall
+//  github.com/tobimori/paywallr
 //
 
 chrome.webRequest.onBeforeSendHeaders.addListener(

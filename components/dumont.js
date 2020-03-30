@@ -1,15 +1,15 @@
-//                                         ____
-//   __ _____  ___  ___ ___ ___    _____ _/ / /
-//  / // / _ \/ _ \/ _ `/ // / |/|/ / _ `/ / / 
-//  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
-//          /_/        /___/                           
+//                                 ____   
+//     ___  ___ ___ ___    _____ _/ / /___
+//    / _ \/ _ `/ // / |/|/ / _ `/ / / __/
+//   / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
+//  /_/        /___/                      
 //
 //  dumont newsnet component
-//  github.com/tobimori/unpaywall
+//  github.com/tobimori/paywallr
 //
 
-if (document.getElementsByClassName("content-behind-wall hide-paid-content")[0]) {
-    removeElements(document.getElementsByClassName("ssoTemplate pay wall"), document.getElementsByClassName("logo title backToLandingPage"));
-    document.getElementById('c1-template-platzhalter').remove();
-    document.getElementsByClassName("content-behind-wall hide-paid-content")[0].classList.remove("hide-paid-content")
+if (d.getElementsByClassName("content-behind-wall hide-paid-content")[0]) {
+    removeElements(d.getElementsByClassName("ssoTemplate pay wall"), d.getElementsByClassName("logo title backToLandingPage"));
+    d.getElementById('c1-template-platzhalter').remove();
+    d.getElementsByClassName("content-behind-wall hide-paid-content")[0].classList.remove("hide-paid-content")
 };

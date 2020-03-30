@@ -1,14 +1,13 @@
-//                                         ____
-//   __ _____  ___  ___ ___ ___    _____ _/ / /
-//  / // / _ \/ _ \/ _ `/ // / |/|/ / _ `/ / / 
-//  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
-//          /_/        /___/                           
+//                                 ____   
+//     ___  ___ ___ ___    _____ _/ / /___
+//    / _ \/ _ `/ // / |/|/ / _ `/ / / __/
+//   / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
+//  /_/        /___/                      
 //
 //  madsack component
-//  github.com/tobimori/unpaywall
+//  github.com/tobimori/paywallr
 //
 
-const d = document;
 if (d.getElementsByClassName("pdb-article-paidcontent-registration")) {
     d.getElementsByClassName("pdb-article-body-paidcontentintro")[0].classList.remove("pdb-article-body-paidcontentintro")
     // throws an error in chrome, but important and works.

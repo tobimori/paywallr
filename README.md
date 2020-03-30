@@ -1,7 +1,15 @@
-# unpaywall [![Mozilla Add-on](https://img.shields.io/amo/v/unpaywall-germany?style=flat-square&logo=mozilla-firefox)](https://addons.mozilla.org/firefox/addon/unpaywall-germany/?src=external-github-shield-downloads)
+```
+                               ____   
+   ___  ___ ___ ___    _____ _/ / /___
+  / _ \/ _ `/ // / |/|/ / _ `/ / / __/
+ / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
+/_/        /___/                      
+
+paywall + r (emove)
+```
 > **Tear down this ~~wall~~ paywall!**
 
-Read articles locked behind paywalls of over 40 german local newspapers.
+Read articles locked behind paywalls of over 50 german newspapers.
 
 This extension is provided for **educational purposes *only***. I do not endorse the use of it and **strongly** encourage you to subscribe to your favourite newspaper and support local journalism.
 

@@ -1,17 +1,15 @@
-//                                         ____
-//   __ _____  ___  ___ ___ ___    _____ _/ / /
-//  / // / _ \/ _ \/ _ `/ // / |/|/ / _ `/ / / 
-//  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
-//          /_/        /___/                           
+//                                 ____   
+//     ___  ___ ___ ___    _____ _/ / /___
+//    / _ \/ _ `/ // / |/|/ / _ `/ / / __/
+//   / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
+//  /_/        /___/                      
 //
 //  verlagsgruppe rhein-main component
-//  github.com/tobimori/unpaywall
+//  github.com/tobimori/paywallr
 //
 //  notes:
 //  vrm uses laterpay
 //
-
-const d = document;
 
 // remove any meta tags with the laterpay config token on any change in document
 const observer = new MutationObserver(function (mutations, me) {

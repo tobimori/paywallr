@@ -1,11 +1,11 @@
-//                                         ____
-//   __ _____  ___  ___ ___ ___    _____ _/ / /
-//  / // / _ \/ _ \/ _ `/ // / |/|/ / _ `/ / / 
-//  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
-//          /_/        /___/                           
+//                                 ____   
+//     ___  ___ ___ ___    _____ _/ / /___
+//    / _ \/ _ `/ // / |/|/ / _ `/ / / __/
+//   / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
+//  /_/        /___/                      
 //
 //  laterpay deobfuscator (rot13 25/-1) component
-//  github.com/tobimori/unpaywall
+//  github.com/tobimori/paywallr
 //
 
 const deobfuscateLaterpay = (s) => {
@@ -14,6 +14,6 @@ const deobfuscateLaterpay = (s) => {
         "ABCDEFGHIJKLMNOPQRSTUVWXYZÅÝÀ[abcdefghijklmnopqrstuvwxyzåý÷à{-/.;=?0)*".indexOf(c)]);   
 };
 
-[...document.getElementsByClassName("obfuscated")].forEach(a => 
+[...d.getElementsByClassName("obfuscated")].forEach(a => 
     a.innerText = deobfuscateLaterpay(a.innerText)
 );

@@ -1,13 +1,13 @@
-//                                         ____
-//   __ _____  ___  ___ ___ ___    _____ _/ / /
-//  / // / _ \/ _ \/ _ `/ // / |/|/ / _ `/ / / 
-//  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
-//          /_/        /___/                           
+//                                 ____   
+//     ___  ___ ___ ___    _____ _/ / /___
+//    / _ \/ _ `/ // / |/|/ / _ `/ / / __/
+//   / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
+//  /_/        /___/                      
 //
 //  faz component
-//  github.com/tobimori/unpaywall
+//  github.com/tobimori/paywallr
 //
-const d = document;
+
 let isPaidContent; // check if article is paid content
 [...d.getElementsByTagName("script")].forEach(e => {
     if(e.innerText == "\n    (window.isPaidContent = true);\n") isPaidContent = true

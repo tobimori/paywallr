@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
 
-    "name": "Unpaywall",
+    "name": "paywallr",
     "version": "2.0",
     "author": "tobimori",
 
@@ -37,7 +37,7 @@
         "96": "icons/icon-96.png",
         "128": "icons/icon-128.png"
       },
-      "default_title": "Unpaywall"
+      "default_title": "paywallr"
     },
 
     "permissions": [

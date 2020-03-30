@@ -1,11 +1,11 @@
-//                                         ____
-//   __ _____  ___  ___ ___ ___    _____ _/ / /
-//  / // / _ \/ _ \/ _ `/ // / |/|/ / _ `/ / / 
-//  \_,_/_//_/ .__/\_,_/\_, /|__,__/\_,_/_/_/  
-//          /_/        /___/                           
+//                                 ____   
+//     ___  ___ ___ ___    _____ _/ / /___
+//    / _ \/ _ `/ // / |/|/ / _ `/ / / __/
+//   / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
+//  /_/        /___/                      
 //
 //  shz component
-//  github.com/tobimori/unpaywall
+//  github.com/tobimori/paywallr
 //
 
-[...document.getElementsByTagName("p")].map(n => n.classList.remove("blurred"));
+[...d.getElementsByTagName("p")].forEach(n => n.classList.remove("blurred"));
