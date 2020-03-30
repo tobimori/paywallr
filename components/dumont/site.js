@@ -4,12 +4,9 @@
 //   / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
 //  /_/        /___/                      
 //
-//  dumont newsnet component
+//  dumont site component
 //  github.com/tobimori/paywallr
 //
-
-// TODO: background block of paywall scripts
-// currently done my ublock probably
 
 if (d.getElementsByClassName("content-behind-wall hide-paid-content")[0]) {
     removeElements(d.getElementsByClassName("ssoTemplate pay wall"), d.getElementsByClassName("logo title backToLandingPage"));

@@ -25,7 +25,8 @@
         "components/tinypass.js", 
         "components/zettgreen.js",
         "components/laterpay/blocker.js",
-        "components/faz/useragent.js"
+        "components/faz/useragent.js",
+        "components/dumont/blocker.js"
       ]
     },
 
@@ -79,7 +80,7 @@
             "*://*.rundschau-online.de/*", 
             "*://*.mz-web.de/*"
         ],
-        "js": ["lib.js", "components/dumont.js"],
+        "js": ["lib.js", "components/dumont/site.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [
