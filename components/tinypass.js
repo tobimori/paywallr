@@ -29,7 +29,7 @@ const isTinypass = (details) => {
     let t;
     // check to enable cross plattform (firefox uses originUrl, chrome uses initiator)
     details.originUrl ? t = new URL(details.originUrl) : t = new URL(details.initiator);
-    console.log(t.hostname);
+    // console.log(t.hostname);
     return tinypassPaywalls.includes(t.hostname);
 };
 
