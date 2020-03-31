@@ -17,6 +17,6 @@ if (d.getElementsByClassName("pdb-article-paidcontent-registration")) {
         map(n => 
             n.classList.remove("pdb-parts-paidcontent-freeuntilbadge_close") +   
             n.classList.add("pdb-parts-paidcontent-freeuntilbadge_open") + 
-            n.appendChild(d.createTextNode("- Unlocked by Unpaywall"))
+            n.appendChild(d.createTextNode("- unlocked by paywallr"))
         );
 };

@@ -7,19 +7,12 @@
 //  ze.tt green component
 //  github.com/tobimori/paywallr
 //
-//  notes:
-//  function ph.callIfNoPaywall is defined in header.js which also includes 
-//  serveral other functions to keep the site working, blocking scripts is no option to keep site working
-//  or at least header working
+//  notes: hidden with inline styling max-height
 // 
 
-// block ze.tt steady, also blocks side header #rip
-extapi.webRequest.onBeforeRequest.addListener(
-  function(details) {
-      return {cancel: true};
-  }, {
-      urls: ["*://*.ze.tt/*"],
-      types: ["script"]
-  },
-  ["blocking"]
-);
+// TODO: find the correct moment to remove attribute as ze.tt uses lazy loading
+if(d.getElementsByClassName("ph-article-flag-description")[0]) {
+    removeElements(d.getElementsByClassName("steady-overlay"), d.getElementsByClassName("steady-action-wrapper"));
+    d.getElementsByClassName("ph-article-flag-description")[0].innerText = "unlocked by paywallr"
+    d.getElementsByTagName("article")[0].removeAttribute("style");
+};

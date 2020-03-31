@@ -23,7 +23,6 @@
         "lib.js", 
         "settingslib.js", 
         "components/tinypass.js", 
-        "components/zettgreen.js",
         "components/laterpay/blocker.js",
         "components/faz/useragent.js",
         "components/dumont/blocker.js"
@@ -143,6 +142,12 @@
         ],
         "js": ["lib.js", "components/faz/mobile.js"],
         "run_at": "document_end"       
+      }, {
+        "matches": [
+          "*://*.ze.tt/*"
+        ],
+        "js": ["lib.js", "components/zettgreen.js"],
+        "run_at": "document_idle"
       }
     ] 
 

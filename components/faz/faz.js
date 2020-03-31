@@ -19,7 +19,7 @@ if (isPaidContent) {
     const mUrl = new URL(oUrl.pathname, "https://m.faz.net/");
     
     const downloadDone = (e) => {
-        d.getElementsByClassName("atc-ReadTime_Text")[0].innerText = "Unlocked by Unpaywall";
+        d.getElementsByClassName("atc-ReadTime_Text")[0].innerText = "unlocked by paywallr";
         d.getElementsByClassName("atc-TextParagraph")[0].innerText = JSON.parse(mReq.response.getElementById("schemaOrgJson").innerHTML).ArticleBody;
         console.log(window.isPaidContent);
     };
