@@ -14,5 +14,5 @@
 removeElements(d.getElementsByClassName("steady-overlay"));
 d.getElementsByClassName("ph-article-flag-description")[0].innerText = "unlocked by paywallr";
 const s = d.createElement('style')
-s.innerHTML = ".ph-article {max-height: 69696996969696px !important;}";
+s.innerHTML = ".ph-article {max-height: 100% !important;}";
 d.body.appendChild(s);
