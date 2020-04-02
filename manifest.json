@@ -10,6 +10,12 @@
     
     "default_locale": "en",
     
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "paywallr@moeritz.cc"
+      }
+    },
+
     "icons": {
       "32": "icons/icon-32.png",
       "48": "icons/icon-48.png",

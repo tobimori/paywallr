@@ -17,7 +17,7 @@ const isSiteEnabled = (fullUrl) => {
     if (!fullUrl) return false;
     browser.storage.sync.get(shortUrl(fullUrl)).then(
         (r) => {
-            return r
+            return !r
         }
     );
 };

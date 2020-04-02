@@ -29,9 +29,9 @@ const changeListener = () => {
 extapi.tabs.onUpdated.addListener(changeListener());
 extapi.tabs.Activated.addListener(changeListener());
 
-// extapi.storage.sync.set();
 extapi.browserAction.onClicked.addListener((tab) => {
+   // const url = shortUrl(tab.url)
     isSite(tab.url) && extapi.storage.sync.set({
-        "disabled": []
+        url: true
     });
 });
