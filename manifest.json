@@ -23,6 +23,7 @@
         "lib.js", 
         "sites.js",
         "settingslib.js", 
+        "settings.js",
         "components/tinypass.js", 
         "components/laterpay/blocker.js",
         "components/faz/useragent.js",
@@ -67,7 +68,7 @@
             "*://*.ostsee-zeitung.de/*", 
             "*://*.paz-online.de/*", 
             "*://*.sn-online.de/*"],
-        "js": ["lib.js", "components/madsack.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/madsack.js"],
         "run_at": "document_end" 
       }, {
         "matches": [
@@ -75,13 +76,13 @@
             "*://*.rundschau-online.de/*", 
             "*://*.mz-web.de/*"
         ],
-        "js": ["lib.js", "components/dumont/site.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/dumont/site.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [
             "*://*.saarbruecker-zeitung.de/*"
         ],
-        "js": ["lib.js", "components/saarbruecker-zeitung.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/saarbruecker-zeitung.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [
@@ -101,14 +102,14 @@
             "*://*.usinger-anzeiger.de/*", 
             "*://*.wormser-zeitung.de/*"
         ],
-        "js": ["lib.js", "components/laterpay/vrm.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/laterpay/vrm.js"],
         "run_at": "document_start"       
       }, {
         "matches": [
             "*://*.nahverkehrhamburg.de/*",
             "*://*.nrwz.de/*"
         ],
-        "js": ["lib.js", "components/steady-cleanslate.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/steady-cleanslate.js"],
         "run_at": "document_idle"       
       }, {
         "matches": [
@@ -118,31 +119,31 @@
             "*://*.muensterlandzeitung.de/*",
             "*://*.halternerzeitung.de/*"
         ],
-        "js": ["lib.js", "components/lensingmedia.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/lensingmedia.js"],
         "run_at": "document_end"       
       }, {
         "matches": [
             "*://*.bergedorfer-zeitung.de/*"
         ],
-        "js": ["lib.js", "components/laterpay/deobfuscator.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/laterpay/deobfuscator.js"],
         "run_at": "document_end"       
       }, {
         "matches": [
             "*://www.faz.net/*"
         ],
-        "js": ["lib.js", "components/faz/faz.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/faz/faz.js"],
         "run_at": "document_end"       
       }, {
         "matches": [
             "*://m.faz.net/*"
         ],
-        "js": ["lib.js", "components/faz/mobile.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/faz/mobile.js"],
         "run_at": "document_end"       
       }, {
         "matches": [
             "*://*.ze.tt/*"
         ],
-        "js": ["lib.js", "components/zett.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/zett.js"],
         "run_at": "document_idle"       
       }
     ] 

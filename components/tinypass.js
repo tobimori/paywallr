@@ -9,28 +9,25 @@
 //
 
 const tinypassPaywalls = [
-    "www.ruhrnachrichten.de",
-    "www.hellwegeranzeiger.de",
-    "www.dorstenerzeitung.de",
-    "www.muensterlandzeitung.de",
-    "www.halternerzeitung.de",
-    "www.thueringer-allgemeine.de",
-    "www.abendblatt.de",
-    "www.waz.de",
-    "www.nrz.de",
-    "www.wr.de",
-    "www.wp.de",
-    "www.otz.de",
-    "www.morgenpost.de",
-    "www.ikz-online.de"
+    "ruhrnachrichten.de",
+    "hellwegeranzeiger.de",
+    "dorstenerzeitung.de",
+    "muensterlandzeitung.de",
+    "halternerzeitung.de",
+    "thueringer-allgemeine.de",
+    "abendblatt.de",
+    "waz.de",
+    "nrz.de",
+    "wr.de",
+    "wp.de",
+    "otz.de",
+    "morgenpost.de",
+    "ikz-online.de"
 ]
 
 const isTinypass = (details) => { 
-    let t;
-    // check to enable cross plattform (firefox uses originUrl, chrome uses initiator)
-    details.originUrl ? t = new URL(details.originUrl) : t = new URL(details.initiator);
-    // console.log(t.hostname);
-    return tinypassPaywalls.includes(t.hostname);
+    const t = details.originUrl || details.initiator;
+    return tinypassPaywalls.includes(shortUrl(t));
 };
 
 // block all tinypass scripts (used by lensing media & funke)

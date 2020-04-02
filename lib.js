@@ -28,3 +28,10 @@ const removeElements = (...arrays) => {
                                  .forEach(n => n.remove())
                   );
 };
+
+// get 2nd and top level domain from full url
+const shortUrl = (url) => {
+    a = new URL(url).hostname.toString().split('.');
+    if (a.length !== 2) a = a.slice(a.length - 2);
+    return a.join('.');
+};
