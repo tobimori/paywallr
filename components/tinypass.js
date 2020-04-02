@@ -4,7 +4,7 @@
 //   / .__/\_,_/\_, /|__,__/\_,_/_/_/_/   
 //  /_/        /___/                      
 //
-//  tinypass component
+//  tinyass component
 //  github.com/tobimori/paywallr
 //
 
@@ -26,14 +26,14 @@ const tinypassPaywalls = [
 ]
 
 const isTinypass = (details) => { 
-    const t = details.originUrl || details.initiator;
     return tinypassPaywalls.includes(shortUrl(t));
 };
 
 // block all tinypass scripts (used by lensing media & funke)
 extapi.webRequest.onBeforeRequest.addListener(
     function(details) {
-        if (!isTinypass(details)) return;
+        const t = details.originUrl || details.initiator;
+        if (!isSite(t) || !isSiteEnabled(t) || !isTinypass(t)) return;
         return {cancel: true};
     }, {
         urls: ["*://*.tinypass.com/*"],
