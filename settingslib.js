@@ -8,19 +8,16 @@
 //  github.com/tobimori/paywallr
 //
 
+let disabledSites = [];
+
 const isSite = (fullUrl) => {
     if (!fullUrl) return false;
     return sites.includes(shortUrl(fullUrl));
 };
 
 const isSiteEnabled = (fullUrl) => { 
-    return true;
     if (!fullUrl) return false;
-    extapi.storage.sync.get({sitesDisabled: []},
-        (stor) => {
-            let arr = Array.from(stor["sitesDisabled"]);
-            return !arr.includes(shortUrl(fullUrl));
-        }
-    );
+    console.log(disabledSites);
+    return !disabledSites.includes(shortUrl(fullUrl));
 };
 

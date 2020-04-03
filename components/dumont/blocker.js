@@ -11,6 +11,7 @@
 // block all celeraone tracking scripts by dumont
 extapi.webRequest.onBeforeRequest.addListener(
     function(details) {
+        if(isSiteEnabled(details.url))
         return {cancel: true};
     }, {
         urls: [

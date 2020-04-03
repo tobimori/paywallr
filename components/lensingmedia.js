@@ -12,4 +12,13 @@
 //
 
 // removes blur from content
-d.getElementById("BaseText").classList.contains("PianoContent") && d.getElementById("BaseText").classList.remove("PianoContent");
+
+extapi.storage.sync.get({ sitesDisabled: [] },
+    (stor) => {
+        disabledSites = Array.from(stor["sitesDisabled"]);
+        console.log("ON LOAD - DISABLED SITES: " + disabledSites);
+        if (isSiteEnabled(window.location.href) && d.getElementsByClassName("pdb-article-paidcontent-registration")) {
+            d.getElementById("BaseText").classList.contains("PianoContent") && d.getElementById("BaseText").classList.remove("PianoContent");
+        };
+    }
+);

@@ -11,8 +11,16 @@
 //  can't be replaced !!!
 // 
 
-removeElements(d.getElementsByClassName("steady-overlay"));
-d.getElementsByClassName("ph-article-flag-description")[0].innerText = "unlocked by paywallr";
-const s = d.createElement('style')
-s.innerHTML = ".ph-article-full {max-height: 100% !important;}";
-d.body.appendChild(s);
+extapi.storage.sync.get({ sitesDisabled: [] },
+    (stor) => {
+        disabledSites = Array.from(stor["sitesDisabled"]);
+        console.log("ON LOAD - DISABLED SITES: " + disabledSites);
+        if (isSiteEnabled(window.location.href)) {
+            removeElements(d.getElementsByClassName("steady-overlay"));
+            d.getElementsByClassName("ph-article-flag-description")[0].innerText = "unlocked by paywallr";
+            const s = d.createElement('style')
+            s.innerHTML = ".ph-article-full {max-height: 100% !important;}";
+            d.body.appendChild(s);
+        };
+    }
+);

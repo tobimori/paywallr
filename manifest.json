@@ -74,7 +74,7 @@
             "*://*.ostsee-zeitung.de/*", 
             "*://*.paz-online.de/*", 
             "*://*.sn-online.de/*"],
-        "js": ["sites.js", "settingslib.js", "lib.js", "components/madsack.js"],
+        "js": ["lib.js", "sites.js", "settingslib.js", "components/madsack.js"],
         "run_at": "document_end" 
       }, {
         "matches": [

@@ -14,6 +14,12 @@ const deobfuscateLaterpay = (s) => {
         "ABCDEFGHIJKLMNOPQRSTUVWXYZÅÝÀ[abcdefghijklmnopqrstuvwxyzåý÷à{-/.;=?0)*".indexOf(c)]);   
 };
 
-[...d.getElementsByClassName("obfuscated")].forEach(a => 
-    a.innerText = deobfuscateLaterpay(a.innerText)
+extapi.storage.sync.get({ sitesDisabled: [] },
+    (stor) => {
+        disabledSites = Array.from(stor["sitesDisabled"]);
+        console.log("ON LOAD - DISABLED SITES: " + disabledSites);
+        isSiteEnabled(window.location.href) && [...d.getElementsByClassName("obfuscated")].forEach(a =>
+            a.innerText = deobfuscateLaterpay(a.innerText)
+        );
+    }
 );

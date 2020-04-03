@@ -9,4 +9,12 @@
 //  github.com/tobimori/paywallr
 //
 
-removeElements(d.getElementsByClassName("cleanslate"));
+extapi.storage.sync.get({ sitesDisabled: [] },
+    (stor) => {
+        disabledSites = Array.from(stor["sitesDisabled"]);
+        console.log("ON LOAD - DISABLED SITES: " + disabledSites);
+        if (isSiteEnabled(window.location.href)) {
+            removeElements(d.getElementsByClassName("cleanslate"));
+        };
+    }
+);

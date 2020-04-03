@@ -8,4 +8,12 @@
 //  github.com/tobimori/paywallr
 //
 
-d.getElementById("park-webtrekk-paywall-hook").remove();
+extapi.storage.sync.get({ sitesDisabled: [] },
+    (stor) => {
+        disabledSites = Array.from(stor["sitesDisabled"]);
+        console.log("ON LOAD - DISABLED SITES: " + disabledSites);
+        if (isSiteEnabled(window.location.href)) {
+            d.getElementById("park-webtrekk-paywall-hook").remove();
+        };
+    }
+);
