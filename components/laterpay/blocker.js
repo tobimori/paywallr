@@ -9,21 +9,18 @@
 //
 
 const laterpayPaywalls = [
-    "www.bergedorfer-zeitung.de"
+    "bergedorfer-zeitung.de"
 ]
 
-const isLaterpay = (details) => { 
-    let t;
-    // check to enable cross plattform (firefox uses originUrl, chrome uses initiator)
-    details.originUrl ? t = new URL(details.originUrl) : t = new URL(details.initiator);
-    console.log(t.hostname);
-    return laterpayPaywalls.includes(t.hostname);
+const isLaterpay = (url) => { 
+    return laterpayPaywalls.includes(shortUrl(url));
 };
 
 // block all tinypass scripts (used by lensing media & funke)
 extapi.webRequest.onBeforeRequest.addListener(
     function(details) {
-        if (!isLaterpay(details)) return;
+        const t = details.originUrl || details.initiator;
+        if (!isSite(t) || !isSiteEnabled(t) || !isLaterpay(t)) return;
         return {cancel: true};
     }, {
         urls: ["*://*.laterpay.net/*"],

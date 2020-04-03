@@ -25,8 +25,8 @@ const tinypassPaywalls = [
     "ikz-online.de"
 ]
 
-const isTinypass = (details) => { 
-    return tinypassPaywalls.includes(shortUrl(t));
+const isTinypass = (url) => { 
+    return tinypassPaywalls.includes(shortUrl(url));
 };
 
 // block all tinypass scripts (used by lensing media & funke)
