@@ -13,11 +13,13 @@ const isSite = (fullUrl) => {
     return sites.includes(shortUrl(fullUrl));
 };
 
-const isSiteEnabled = (fullUrl) => {
+const isSiteEnabled = (fullUrl) => { 
+    return true;
     if (!fullUrl) return false;
-    browser.storage.sync.get(shortUrl(fullUrl)).then(
-        (r) => {
-            return !r
+    extapi.storage.sync.get({sitesDisabled: []},
+        (stor) => {
+            let arr = Array.from(stor["sitesDisabled"]);
+            return !arr.includes(shortUrl(fullUrl));
         }
     );
 };

@@ -8,7 +8,9 @@
 //  github.com/tobimori/paywallr
 //
 
-const changeListener = () => {
+
+
+extapi.tabs.onUpdated.addListener(() => {
     extapi.tabs.query({
         active: true,
         currentWindow: true
@@ -24,14 +26,42 @@ const changeListener = () => {
             });
     }
     )
-};
+});
 
-extapi.tabs.onUpdated.addListener(changeListener());
-extapi.tabs.Activated.addListener(changeListener());
+extapi.tabs.onActivated.addListener(console.log("gay"));
 
 extapi.browserAction.onClicked.addListener((tab) => {
-   // const url = shortUrl(tab.url)
-    isSite(tab.url) && extapi.storage.sync.set({
-        url: true
-    });
+    isEnabled = isSiteEnabled(tab.url);
+    console.log(isEnabled);
+    if (isSite(tab.url) && isEnabled) {
+        extapi.storage.sync.get("sitesDisabled", 
+            (stored) => {
+                let sites = Array.from(stored["sitesDisabled"]);
+                console.log(sites);
+                sites.push(shortUrl(tab.url));
+                console.log(sites);
+                extapi.storage.sync.set({
+                    sitesDisabled: sites
+                });
+                extapi.browserAction.setBadgeText({
+                    "text": "OFF", "tabId": tab.id
+                });
+                console.log("Disabled site: " + tab.url);
+            }
+        );
+    } else if (isSite(tab.url) && !isEnabled) {
+        extapi.storage.sync.get("sitesDisabled", 
+            (stored) => {
+                let sites = Array.from(stored["sitesDisabled"]);
+                sites.splice(shortUrl(tab.url));
+                extapi.storage.sync.set({
+                    sitesDisabled: sites
+                });
+                extapi.browserAction.setBadgeText({
+                    "text": "ON", "tabId": tab.id
+                });
+                console.log("Enabled site: " + tab.url);
+            }
+        );        
+    };
 });
