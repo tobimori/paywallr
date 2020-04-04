@@ -9,12 +9,6 @@
     "description": "__MSG_manifestDescription__",
     
     "default_locale": "en",
-    
-    "browser_specific_settings": {
-      "gecko": {
-        "id": "paywallr@moeritz.cc"
-      }
-    },
 
     "icons": {
       "32": "icons/icon-32.png",
