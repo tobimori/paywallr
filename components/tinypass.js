@@ -14,6 +14,7 @@ const tinypassPaywalls = [
     "dorstenerzeitung.de",
     "muensterlandzeitung.de",
     "halternerzeitung.de",
+    // FUNKE
     "thueringer-allgemeine.de", // needs ROT13 like in laterpay/deobfuscator decrypt
     "abendblatt.de", // Working
     "waz.de", // needs ROT13 like in laterpay/deobfuscator decrypt
@@ -33,7 +34,7 @@ const isTinypass = (url) => {
 extapi.webRequest.onBeforeRequest.addListener(
     function(details) {
         const t = details.originUrl || details.initiator;
-        if (!isTinypass(t)) return;
+        if (!isSiteEnabled(t) || !isSite(t) || !isTinypass(t)) return;
         return {cancel: true};
     }, {
         urls: ["*://*.tinypass.com/*"],

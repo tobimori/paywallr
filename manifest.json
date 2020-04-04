@@ -131,7 +131,7 @@
         "matches": [
             "*://*.bergedorfer-zeitung.de/*"
         ],
-        "js": ["sites.js", "settingslib.js", "lib.js", "components/laterpay/deobfuscator.js"],
+        "js": ["sites.js", "settingslib.js", "lib.js", "components/laterpay/bergedorfer-zeitung.js"],
         "run_at": "document_end"       
       }, {
         "matches": [
@@ -151,6 +151,23 @@
         ],
         "js": ["sites.js", "settingslib.js", "lib.js", "components/zett.js"],
         "run_at": "document_idle"       
+      },
+      {
+        "matches": [
+          "*://*.thueringer-allgemeine.de/*",
+          "*://*.waz.de/*",
+          "*://*.nrz.de/*",
+          "*://*.wr.de/*",
+          "*://*.wp.de/*",
+          "*://*.otz.de/*"
+        ],
+        "js": [
+          "sites.js",
+          "settingslib.js",
+          "lib.js",
+          "components/funke/rot13.js"
+        ],
+        "run_at": "document_idle"
       }
     ] 
 
