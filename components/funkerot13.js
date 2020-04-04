@@ -10,7 +10,7 @@
 
 const deobfuscateFUNKE = (s) => {
     return s.replace(/[0-9A-ZÅÝÀµ#@²:`^'´\\,{[/.÷;=?)*\-]/gi, c =>
-        '012345678@ABCDEFGHIJKLMNOPQRSTUVWXYÄÜẞZzabcdefghijklmnopqrstuvwxyäüößz,.-:<>/()!"=[;9]&_?'[
+        '112345678@ABCDEFGHIJKLMNOPQRSTUVWXYÄÜẞZzabcdefghijklmnopqrstuvwxyäüößz,.-:<>/()!"=[;9]&_?'[
         '123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÅÝÀ[abcdefghijklmnopqrstuvwxyzåý÷à{-/.;=?0)*²#µ\\´:^\'`@'.indexOf(c)]);
 };
 
