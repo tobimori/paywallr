@@ -1,6 +1,6 @@
 {
     "manifestDescription": {
-      "message": "paywall + r (remove). experimental addon, provided for educational purposes only. read articles locked behind paywalls of over 50 newspapers.",
+      "message": "paywall + r (remove). experimental addon, provided for educational purposes only. read articles locked behind paywalls.",
       "description": "Description of the extension."
     }
 }
