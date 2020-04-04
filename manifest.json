@@ -165,7 +165,7 @@
           "sites.js",
           "settingslib.js",
           "lib.js",
-          "components/funke/rot13.js"
+          "components/funke-rot13.js"
         ],
         "run_at": "document_idle"
       }
