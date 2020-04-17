@@ -43,7 +43,7 @@ const FAZify = (str) => {
     str.split("\n\n").forEach(
         (e) => {
             console.log(e);
-            if (e.length < 50) {
+            if (e.length < 80) {
                 arr.push('<h3 class="atc-SubHeadline">' + e + '</h3>');
                 //arr.push('<p class="atc-TextParagraph"><strong>' + e + '</strong></p>');
             } else {
@@ -61,7 +61,7 @@ const FAZifyMobile = (str) => {
     str.split("\n\n").forEach(
         (e) => {
             console.log(e);
-            if (e.length < 100) {
+            if (e.length < 80) {
                 arr.push('<h2>' + e + '</h2>');
             } else {
                 !arr ? arr.push('<p class="First">' + e + '</p>') : arr.push('<p>' + e + '</p>');
