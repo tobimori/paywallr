@@ -35,3 +35,30 @@ const shortUrl = (url) => {
     if (a.length !== 2) a = a.slice(a.length - 2);
     return a.join('.');
 };
+
+// line break heuristics
+const FAZify = (str) => {
+    let arr = [];
+    str = breakText(str);
+    str.split("\n\n").forEach(
+        (e) => {
+            console.log(e);
+            if (e.length < 100) {
+                arr.push('<h3 class="atc-SubHeadline">' + e + '</h3>');
+            } else {
+                arr.push('<p class="atc-TextParagraph">' + e + '</p>');
+            };
+        }
+    );
+    return arr.join("");
+};
+
+const breakText = (str) => {
+    str = str.replace(/(?<=\w)(\.|\?|!)(?=[a-zA-Z])/gm, "$&\n\n");
+    str = str.replace(/(?<=[a-z"])[A-Z]/gm, "\n\n$&")
+    return str;
+};
+
+const MADSACKify = (str) => {
+
+};

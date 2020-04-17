@@ -26,7 +26,7 @@ extapi.storage.sync.get({ sitesDisabled: [] },
 
             const downloadDone = (e) => {
                 d.getElementsByClassName("atc-ReadTime_Text")[0].innerText = "unlocked by paywallr";
-                d.getElementsByClassName("atc-TextParagraph")[0].innerText = JSON.parse(mReq.response.getElementById("schemaOrgJson").innerHTML).ArticleBody;
+                d.getElementsByClassName("atc-Text js-atc-Text")[0].innerHTML = FAZify(JSON.parse(mReq.response.getElementById("schemaOrgJson").innerHTML).ArticleBody);
                 console.log(window.isPaidContent);
             };
 
