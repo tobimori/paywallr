@@ -43,17 +43,18 @@ const FAZify = (str) => {
     str.split("\n\n").forEach(
         (e) => {
             console.log(e);
-            if (e.length < 100) {
+            if (e.length < 50) {
                 arr.push('<h3 class="atc-SubHeadline">' + e + '</h3>');
+                //arr.push('<p class="atc-TextParagraph"><strong>' + e + '</strong></p>');
             } else {
                 arr.push('<p class="atc-TextParagraph">' + e + '</p>');
             };
         }
     );
     return arr.join("");
+    //return '<p class="atc-TextParagraph">' + breakText(str) + '</p>';
 };
 
-// line break heuristics
 const FAZifyMobile = (str) => {
     let arr = [];
     str = breakText(str);
@@ -73,6 +74,8 @@ const FAZifyMobile = (str) => {
 const breakText = (str) => {
     str = str.replace(/(?<=\w)(\.|\?|!)(?=[a-zA-Z])/gm, "$&\n\n");
     str = str.replace(/(?<=[a-z"])[A-Z]/gm, "\n\n$&")
+    str = str.replace(/Sars-Co\n\nV-2/g, "Sars-CoV-2") //fuck
+    str = str.replace(/Kf\n\nW-Kredite/g, "KfW-Kredite") //fuck2
     return str;
 };
 
