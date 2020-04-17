@@ -53,6 +53,23 @@ const FAZify = (str) => {
     return arr.join("");
 };
 
+// line break heuristics
+const FAZifyMobile = (str) => {
+    let arr = [];
+    str = breakText(str);
+    str.split("\n\n").forEach(
+        (e) => {
+            console.log(e);
+            if (e.length < 100) {
+                arr.push('<h2>' + e + '</h2>');
+            } else {
+                !arr ? arr.push('<p class="First">' + e + '</p>') : arr.push('<p>' + e + '</p>');
+            };
+        }
+    );
+    return arr.join("");
+};
+
 const breakText = (str) => {
     str = str.replace(/(?<=\w)(\.|\?|!)(?=[a-zA-Z])/gm, "$&\n\n");
     str = str.replace(/(?<=[a-z"])[A-Z]/gm, "\n\n$&")
