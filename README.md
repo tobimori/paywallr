@@ -70,6 +70,7 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 * [Wolfsburger Allgemeine/Aller-Zeitung](https://waz-online.de/) *Text only*
 * [Wormser Zeitung](https://www.wormser-zeitung.de/)
 * [ze.tt](https://ze.tt) *v2.0+*
+* [Titanic Magazin](https://www.titanic-magazin.de/) *v2.2+*
 
 ## Why (and how) does this work?!
 
