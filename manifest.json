@@ -107,7 +107,8 @@
       }, {
         "matches": [
             "*://*.nahverkehrhamburg.de/*",
-            "*://*.nrwz.de/*"
+            "*://*.nrwz.de/*",
+            "*://*.titanic-magazin.de/*"
         ],
         "js": ["sites.js", "settingslib.js", "lib.js", "components/steady-cleanslate.js"],
         "run_at": "document_idle"       

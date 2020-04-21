@@ -78,7 +78,3 @@ const breakText = (str) => {
     str = str.replace(/Kf\n\nW-Kredite/g, "KfW-Kredite") //fuck2
     return str;
 };
-
-const MADSACKify = (str) => {
-
-};

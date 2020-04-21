@@ -58,5 +58,6 @@ const sites = [
     "wiesbadener-kurier.de",
     "waz-online.de",
     "wormser-zeitung.de",
-    "ze.tt"
+    "ze.tt",
+    "titanic-magazin.de"
 ];
