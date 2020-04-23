@@ -35,7 +35,7 @@ const shortUrl = (url) => {
     if (a.length !== 2) a = a.slice(a.length - 2);
     return a.join('.');
 };
-
+/*
 // line break heuristics
 const FAZify = (str) => {
     let arr = [];
@@ -78,3 +78,4 @@ const breakText = (str) => {
     str = str.replace(/Kf\n\nW-Kredite/g, "KfW-Kredite") //fuck2
     return str;
 };
+*/
