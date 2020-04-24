@@ -72,7 +72,7 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 * [ze.tt](https://ze.tt) *v2.0+*
 * [Titanic Magazin](https://www.titanic-magazin.de/) *v2.2+*
 
-## Why (and how) does this work?!
+## Unlock mechanisms
 
 ### Madsack (e.g. Leipziger Volkszeitung, Hannoversche Allgemeine Zeitung, Kieler Nachrichten)
 
@@ -82,13 +82,15 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 
 > The CMS of the FUNKE Mediengruppe uses a solution by Piano, where the content gets removed afterwards. This script is easily blocked and requires no further work.
 
+> **Introduced in Version 2.0.** Some articles of some FUNKE newspapers will be "encrypted" with a Caesar chiffre. This is easily decrypted with no further work required.
+
 ### VRM (e.g. Mittelhessen, Echo Online, Allgemeine Zeitung)
 
 > The CMS of the Verlagsgruppe Rhein-Main encrypts the article afterwards. They use a solution of the company LaterPay, whose encryption can be prevented by removing the configuration key used by LaterPay.
 
 ### DuMont Newsnet (e.g. Kölner Stadtanzeiger & Mitteldeutsche Zeitung)
 
-> DuMont hides the article with css and displays a paywall container over it.
+> DuMont hides the article with CSS rules and displays a paywall container over it.
 
 ### Saarbrücker Zeitung
 
@@ -100,12 +102,12 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 
 > Fixed as of 03/16/2020
 
-> ***Introduced in Version 2.0.*** Article text will be loaded from a JSON only available on the mobile page using a XMLHttpRequest with a spoofed user-agent.
+> ***Introduced in Version 2.0.*** Article text will be loaded from meta data (JSON-LD) only available on the mobile page using a XMLHttpRequest with a spoofed user-agent.
 
-### NahverkehrHAMBURG
+### NahverkehrHAMBURG / NRWZ / Titanic Magazin
 
-> ***Introduced in Version 1.1.***
-> NahverkehrHAMBURG uses Steady to finance their site. All articles are available for free at release, but will be blocked with a popup after a few days. Only the view is blocked, so Unpaywall removes the element that advertises the paywall.
+> ***Introduced in Version 1.1/2.0/2.2.***
+> These sites use Steady to earn money. Only the view is blocked by an element paywallr simply removes.
 
 ### Lensing Media (e.g. Ruhrnachrichten)
 
@@ -115,4 +117,9 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 ### Bergedorfer Zeitung
 
 > ***Introduced in Version 2.0.***
-> The Bergedorfer Zeitung uses a solution by Laterpay, which decrypts the text after paying. It's obfuscated with ROT13 -1/25.
+> The Bergedorfer Zeitung uses a solution by Laterpay, which decrypts the text after paying. They use a Caesar chiffre which is easily decrypted.
+
+### ze.tt (Youth magazine of ZEIT)
+
+> **Introduced in Version 2.0.**
+> ze.tt uses a ```max-height``` inline style on the article container to hide the content. This is removeable by overwriting the style with ```!important```.
