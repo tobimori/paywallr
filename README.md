@@ -96,7 +96,7 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 
 > The Saarbrücker Zeitung saves the complete article and replaces it afterwards. Their paywall script is pretty bad and blocked by all common adblockers.
 
-### Frankfurter Allgemeine Zeitung
+### Frankfurter Allgemeine Zeitung (FAZ.NET/F+)
 
 > ***Never introduced.*** The FAZ has a social media section [here](https://www.faz.net/social-media/instagram/), which is linked in their Instagram biography and shall be used to find articles they post about. Articles in this category can be unlocked by adding a ```?premium``` at the end.
 
