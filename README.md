@@ -123,3 +123,7 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 
 > **Introduced in Version 2.0.**
 > ze.tt uses a ```max-height``` inline style on the article container to hide the content. This is removeable by overwriting the style with ```!important```.
+
+## License
+
+paywallr is licensed under the [MIT License](./LICENSE).
