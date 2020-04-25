@@ -35,7 +35,8 @@ const shortUrl = (url) => {
     if (a.length !== 2) a = a.slice(a.length - 2);
     return a.join('.');
 };
-/*
+
+
 // line break heuristics
 const FAZify = (str) => {
     let arr = [];
@@ -72,10 +73,13 @@ const FAZifyMobile = (str) => {
 };
 
 const breakText = (str) => {
-    str = str.replace(/(?<=\w)(\.|\?|!)(?=[a-zA-Z])/gm, "$&\n\n");
-    str = str.replace(/(?<=[a-z"])[A-Z]/gm, "\n\n$&")
-    str = str.replace(/Sars-Co\n\nV-2/g, "Sars-CoV-2") //fuck
-    str = str.replace(/Kf\n\nW-Kredite/g, "KfW-Kredite") //fuck2
+    str = str.replace(/(?:^|[\w\"\“])(\.|\?|!)(?=[A-Za-zÀ-ÿ\„]{2,})/gm, "$&\n\n");
+    str = str.replace(/([a-z\"\“])(?=[A-Z])/gm, "$&\n\n");
+    // there is no general fix for names with alternating lower/uppercase - exceptions:
+    str = str.replace(/Glaxo\n\nSmith\n\nKline/g, "GlaxoSmithKline");
+    str = str.replace(/If\n\nSG/g, "IfSG");
+    str = str.replace(/La\n\nPierre/g, "LaPierre");
+    str = str.replace(/Sars-Co\n\nV-2/g, "Sars-CoV-2"); 
+    str = str.replace(/Kf\n\nW-Kredite/g, "KfW-Kredite");
     return str;
 };
-*/
