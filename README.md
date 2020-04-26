@@ -72,6 +72,11 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 * [ze.tt](https://ze.tt) *v2.0+*
 * [Titanic Magazin](https://www.titanic-magazin.de/) *v2.2+*
 
+## Disabling sites
+
+As of v2.0, you can disable paywallr for a site by clicking on the browser action icon (usually in the upper right) on a supported site.
+This is useful when you have an account or the unlock doesn't work.
+
 ## Unlock mechanisms
 
 ### Madsack (e.g. Leipziger Volkszeitung, Hannoversche Allgemeine Zeitung, Kieler Nachrichten)
