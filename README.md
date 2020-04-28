@@ -87,7 +87,7 @@ This is useful when you have an account or the unlock doesn't work.
 
 > The CMS of the FUNKE Mediengruppe uses a solution by Piano, where the content gets removed afterwards. This script is easily blocked and requires no further work.
 
-> ***Introduced in Version 2.0.*** Some articles of some FUNKE newspapers will be "encrypted" with a Caesar chiffre. This is easily decrypted with no further work required.
+> ***Introduced in Version 2.0.*** Some articles of all FUNKE newspapers (except for Berliner Morgenpost as of 28/04/2020) will be "encrypted" with a Caesar chiffre. This is easily decrypted with no further work required.
 
 ### VRM (e.g. Mittelhessen, Echo Online, Allgemeine Zeitung)
 
