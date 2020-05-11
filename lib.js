@@ -8,6 +8,8 @@
 //  github.com/tobimori/paywallr
 //
 
+// DeepRobin was here
+
 const d = document;
 const extapi = chrome;
 
