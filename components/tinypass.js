@@ -14,6 +14,7 @@ const tinypassPaywalls = [
     "dorstenerzeitung.de",
     "muensterlandzeitung.de",
     "halternerzeitung.de",
+    "saechsische.de",
     // FUNKE
     "thueringer-allgemeine.de", // needs ROT13 like in laterpay/deobfuscator decrypt
     "abendblatt.de", // Working
