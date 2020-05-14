@@ -71,6 +71,7 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 * [Wormser Zeitung](https://www.wormser-zeitung.de/)
 * [ze.tt](https://ze.tt) *v2.0+*
 * [Titanic Magazin](https://www.titanic-magazin.de/) *v2.2+*
+* [Sächsische Zeitung](https://saechsische.de/) *v2.4+*
 
 ## Disabling sites
 
