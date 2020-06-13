@@ -23,6 +23,7 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 * [Allgemeine Zeitung](https://www.allgemeine-zeitung.de/)
 * [Bergedorfer Zeitung](https://www.bergedorfer-zeitung.de/) *v2.0+*
 * [Berliner Morgenpost](https://morgenpost.de/)
+* [Braunschweiger Zeitung](https://www.braunschweiger-zeitung.de/) *v2.6+*
 * [Burgstädter Zeitung](https://www.buerstaedter-zeitung.de/)
 * [Cellesche Zeitung](https://www.cellesche-zeitung.de/) *Text only*
 * [Dorstener Zeitung](https://www.dorstenerzeitung.de) *v2.0+*
@@ -30,11 +31,14 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 * [Echo Online](https://www.echo-online.de/)
 * [Frankfurter Allgemeine Zeitung](https://www.faz.net) *Text only, pictures available in gallery - v2.0+*
 * [Giessener Anzeiger](https://www.giessener-anzeiger.de/)
+* [Gifhorner Rundschau](https://www.gifhorner-rundschau.de/) *v2.6+*
 * [Göttinger Tageblatt](https://www.goettinger-tageblatt.de/) *Text only*
 * [Halterner Zeitung](https://www.halternerzeitung.de) *v2.0+*
 * [Hamburger Abendblatt](https://abendblatt.de/)
 * [Hannoversche Allgemeine Zeitung](https://www.haz.de/) *Text only*
+* [Harzkurier](https://www.harzkurier.de/) *v2.6+*
 * [Hellweger Anzeiger](https://www.hellwegeranzeiger.de) *v2.0+*
+* [Helmstedter Nachrichten](https://www.helmstedter-nachrichten.de/) *v2.6+*
 * [Hochheimer Zeitung](https://www.hochheimer-zeitung.de/)
 * [Hofheimer Zeitung](https://www.hofheimer-zeitung.de/)
 * [Iserlohner Kreisanzeiger und Zeitung](https://ikz-online.de)
@@ -59,19 +63,23 @@ Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobia
 * [Ostsee-Zeitung](https://www.ostsee-zeitung.de/) *Text only*
 * [Ostthüringer Zeitung](https://otz.de/)
 * [Peiner Allgemeine](https://www.paz-online.de/) *Text only*
+* [Peiner Nachrichten](https://www.peiner-nachrichten.de/) *v2.6+*
 * [Ruhrnachrichten](https://www.ruhrnachrichten.de) *v2.0+*
 * [Saarbrücker Zeitung](https://www.saarbruecker-zeitung.de/)
+* [Salzgitter Zeitung](https://www.salzgitter-zeitung.de/) *v2.6+*
 * [Schaumburger Nachrichten](https://www.sn-online.de/) *Text only*
+* [Sächsische Zeitung](https://saechsische.de/) *v2.4+*
 * [Thüringer Allgemeine](https://thueringer-allgemeine.de/)
+* [Titanic Magazin](https://www.titanic-magazin.de/) *v2.2+*
 * [Usinger Anzeiger](https://www.usinger-anzeiger.de/)
 * [Westdeutsche Allgemeine Zeitung](https://waz.de/)
 * [Westfalenpost](https://wp.de/)
 * [Wiesbadener Kurier](https://www.wiesbadener-kurier.de/)
+* [Wolfenbütteler Zeitung](https://www.wolfenbuetteler-zeitung.de/) *v2.6+*
 * [Wolfsburger Allgemeine/Aller-Zeitung](https://waz-online.de/) *Text only*
+* [Wolfsburger Nachrichten](https://www.wolfsburger-nachrichten.de/) *v2.6+*
 * [Wormser Zeitung](https://www.wormser-zeitung.de/)
 * [ze.tt](https://ze.tt) *v2.0+*
-* [Titanic Magazin](https://www.titanic-magazin.de/) *v2.2+*
-* [Sächsische Zeitung](https://saechsische.de/) *v2.4+*
 
 ## Disabling sites
 
@@ -84,11 +92,11 @@ This is useful when you have an account or the unlock doesn't work.
 
 > Madsack stores the complete article in text form (i.e. without media and formatting) in the source code of the page to enable indexing of paywalled articles in search engines like Google & Co. They also indicate that their article is available for free, presumably to achieve a higher ranking. The Web extension just reads this text and replaces the preview with it.
 
-### FUNKE Mediengruppe (e.g. Hamburger Abendblatt, Berliner Morgenpost, Thüringer Allgemeine, Westfalenpost)
+### FUNKE Mediengruppe & BZV Medienhaus (e.g. Hamburger Abendblatt, Berliner Morgenpost, Thüringer Allgemeine, Westfalenpost)
 
-> The CMS of the FUNKE Mediengruppe uses a solution by Piano, where the content gets removed afterwards. This script is easily blocked and requires no further work.
+> The CMS of the FUNKE Mediengruppe/BZV Medienhaus uses a solution by Piano, where the content gets removed afterwards. This script is easily blocked and requires no further work.
 
-> ***Introduced in Version 2.0.*** Some articles of all FUNKE newspapers (except for Berliner Morgenpost as of 28/04/2020) will be "encrypted" with a Caesar chiffre. This is easily decrypted with no further work required.
+> ***Introduced in Version 2.0.*** Some articles of all FUNKE newspapers & BZV Medienhaus will be "encrypted" with a Caesar chiffre. This is easily decrypted with no further work required.
 
 ### VRM (e.g. Mittelhessen, Echo Online, Allgemeine Zeitung)
 
