@@ -15,16 +15,18 @@ const tinypassPaywalls = [
     "muensterlandzeitung.de",
     "halternerzeitung.de",
     "saechsische.de",
-    // FUNKE
-    "thueringer-allgemeine.de", // needs ROT13 like in laterpay/deobfuscator decrypt
-    "abendblatt.de", // Working
-    "waz.de", // needs ROT13 like in laterpay/deobfuscator decrypt
-    "nrz.de", // needs ROT13 like in laterpay/deobfuscator decrypt
-    "wr.de", // needs ROT13 like in laterpay/deobfuscator decrypt
-    "wp.de", //needs ROT13 like in laterpay/deobfuscator decrypt
-    "otz.de", // needs ROT13 like in laterpay/deobfuscator decrypt
-    "morgenpost.de", // Working
-    "ikz-online.de" // Working
+    // FUNKE - needs ROT13 like in laterpay/deobfuscator decrypt
+    "thueringer-allgemeine.de", 
+    "abendblatt.de",
+    "waz.de", 
+    "nrz.de",
+    "wr.de", 
+    "wp.de", 
+    "otz.de",
+    "morgenpost.de",
+    "ikz-online.de",
+    // BZV
+    "braunschweiger-zeitung.de"
 ]
 
 const isTinypass = (url) => { 

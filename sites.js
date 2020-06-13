@@ -60,5 +60,6 @@ const sites = [
     "wormser-zeitung.de",
     "ze.tt",
     "titanic-magazin.de",
-    "saechsische.de"
+    "saechsische.de",
+    "braunschweiger-zeitung.de"
 ];

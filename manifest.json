@@ -3,7 +3,7 @@
     "manifest_version": 2,
 
     "name": "paywallr",
-    "version": "2.5.0",
+    "version": "2.6.0",
     "author": "tobimori",
 
     "description": "__MSG_manifestDescription__",
@@ -156,7 +156,9 @@
           "*://*.wp.de/*",
           "*://*.otz.de/*",
           "*://*.abendblatt.de/*",
-          "*://*.morgenpost.de/*"
+          "*://*.morgenpost.de/*",
+          "*://*.ikz-online.de/*",
+          "*://*.braunschweiger-zeitung.de/*"
         ],
         "js": [
           "sites.js",
