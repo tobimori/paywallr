@@ -3,7 +3,7 @@
     "manifest_version": 2,
 
     "name": "paywallr",
-    "version": "2.6.0",
+    "version": "2.6.1",
     "author": "tobimori",
 
     "description": "__MSG_manifestDescription__",
@@ -103,9 +103,10 @@
       "*://*.wolfsburger-nachrichten.de/*",
       "*://*.wolfenbuetteler-zeitung.de/*",
       "*://*.harzkurier.de/*",
+      "*://*.laterpay.net/*",
+      "*://*.tinypass.com/*",
       "activeTab",
       "tabs",
-      "cookies",
       "storage",
       "webRequest",
       "webRequestBlocking"
