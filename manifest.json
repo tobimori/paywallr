@@ -233,18 +233,6 @@
           "components/funkerot13.js"
         ],
         "run_at": "document_idle"
-      },
-      {
-        "matches": [
-          "*://*.bloomberg.com/*"
-        ],
-        "js": [
-          "sites.js",
-          "settingslib.js",
-          "lib.js",
-          "components/cors-bypass.js"
-        ],
-        "run_at": "document_idle"
       }
     ] 
 
