@@ -61,5 +61,12 @@ const sites = [
     "ze.tt",
     "titanic-magazin.de",
     "saechsische.de",
-    "braunschweiger-zeitung.de"
+    "braunschweiger-zeitung.de",
+    "gifhorner-rundschau.de",
+    "helmstedter-nachrichten.de",
+    "peiner-nachrichten.de",
+    "salzgitter-zeitung.de",
+    "wolfsburger-nachrichten.de",
+    "wolfenbuetteler-zeitung.de",
+    "harzkurier.de"
 ];

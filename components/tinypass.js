@@ -32,7 +32,8 @@ const tinypassPaywalls = [
     "peiner-nachrichten.de",
     "salzgitter-zeitung.de",
     "wolfsburger-nachrichten.de",
-    "wolfenbuetteler-zeitung.de"
+    "wolfenbuetteler-zeitung.de",
+    "harzkurier.de"
 ]
 
 const isTinypass = (url) => { 
