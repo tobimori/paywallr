@@ -26,7 +26,13 @@ const tinypassPaywalls = [
     "morgenpost.de",
     "ikz-online.de",
     // BZV
-    "braunschweiger-zeitung.de"
+    "braunschweiger-zeitung.de",
+    "gifhorner-rundschau.de",
+    "helmstedter-nachrichten.de",
+    "peiner-nachrichten.de",
+    "salzgitter-zeitung.de",
+    "wolfsburger-nachrichten.de",
+    "wolfenbuetteler-zeitung.de"
 ]
 
 const isTinypass = (url) => { 
