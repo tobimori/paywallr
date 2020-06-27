@@ -25,6 +25,7 @@ const tinypassPaywalls = [
     "otz.de",
     "morgenpost.de",
     "ikz-online.de",
+    "tlz.de",
     // BZV
     "braunschweiger-zeitung.de",
     "gifhorner-rundschau.de",
@@ -47,7 +48,7 @@ extapi.webRequest.onBeforeRequest.addListener(
         if (!isSiteEnabled(t) || !isSite(t) || !isTinypass(t)) return;
         return {cancel: true};
     }, {
-        urls: ["*://*.tinypass.com/*"],
+        urls: ["*://*.tinypass.com/*", "*://*.tlz.de/resources/*/piano/js/main.min.js"], 
         types: ["script"]
     },
     ["blocking"]

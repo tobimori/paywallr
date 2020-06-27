@@ -68,5 +68,6 @@ const sites = [
     "salzgitter-zeitung.de",
     "wolfsburger-nachrichten.de",
     "wolfenbuetteler-zeitung.de",
-    "harzkurier.de"
+    "harzkurier.de",
+    "tlz.de"
 ];
