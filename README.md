@@ -16,7 +16,7 @@ This extension is provided for **educational purposes *only***. I do not endorse
 Got something on your heart? Throw me a mail @ [tobias@moeritz.wtf](mailto:tobias@moeritz.wtf) :)
 
 **[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" height="40">](https://addons.mozilla.org/firefox/addon/paywallr/?src=external-github-bigbutton-downloads)**
-**[<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_496x150.png" height="39">](https://chrome.google.com/webstore/detail/unpaywall/afeichgdccjeclmcfiofcacpecigafoi/?src=external-github-bigbutton-downloads)**
+Removed from Chrome Web Store as of 2020-07-02
 
 ## Supported sites
 
